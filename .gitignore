@@ -1,0 +1,25 @@
+# EduSphere SA - Minimal Git Ignore
+# Only ignores files that would actually appear in this project
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets (NEVER commit these)
+.env
+.env.local
+
+# Large media files (host on YouTube/Google Drive instead)
+*.mp4
+*.mov
+*.mp3
+*.wav
