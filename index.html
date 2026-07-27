@@ -908,7 +908,62 @@
             .worksheet-card { flex-direction: column; text-align: center; }
             .characters-grid { grid-template-columns: repeat(2, 1fr); }
         }
-    </style>
+    
+        /* NSC PRACTICE BANK */
+        .nsc-bank-section { background: linear-gradient(135deg, var(--light-blue), var(--light-green)); padding: 60px 24px; }
+        .nsc-container { max-width: 1000px; margin: 0 auto; }
+        .grade-tabs-nsc { display: flex; justify-content: center; gap: 12px; margin-bottom: 32px; flex-wrap: wrap; }
+        .grade-tab-nsc { padding: 14px 28px; background: white; border: 2px solid var(--deep-blue); border-radius: 12px; color: var(--deep-blue); font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 14px; cursor: pointer; transition: all 0.3s ease; }
+        .grade-tab-nsc:hover, .grade-tab-nsc.active { background: var(--deep-blue); color: white; transform: translateY(-3px); box-shadow: 0 8px 24px rgba(26,58,92,0.2); }
+        .grade-panel-nsc { display: none; animation: fadeInUp 0.5s ease; }
+        .grade-panel-nsc.active { display: block; }
+        .subjects-grid-nsc { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; }
+        .subject-card-nsc { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 16px rgba(0,0,0,0.06); border: 2px solid transparent; transition: all 0.3s ease; }
+        .subject-card-nsc:hover { border-color: var(--warm-gold); box-shadow: 0 8px 24px rgba(0,0,0,0.08); transform: translateY(-3px); }
+        .subject-header-nsc { padding: 16px 20px; display: flex; align-items: center; gap: 12px; border-bottom: 2px solid var(--soft-cream); background: linear-gradient(135deg, var(--light-blue), transparent); }
+        .subject-icon-nsc { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 22px; background: var(--light-blue); }
+        .activity-list-nsc { padding: 16px 20px; }
+        .activity-item-nsc { background: var(--soft-cream); border: 2px solid #eee; border-radius: 12px; padding: 16px; margin-bottom: 12px; cursor: pointer; transition: all 0.3s ease; }
+        .activity-item-nsc:hover { border-color: var(--deep-blue); background: white; }
+        .activity-meta-nsc { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+        .meta-tag-nsc { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 20px; }
+        .meta-class { background: var(--light-blue); color: var(--deep-blue); }
+        .meta-home { background: var(--light-green); color: var(--vibrant-green); }
+        .meta-paper { background: var(--light-gold); color: var(--warm-gold); }
+        .meta-marks { background: #fdeaea; color: #e74c3c; }
+        .meta-time { background: #f5f5f5; color: #888; }
+        .meta-barrett { background: #f3e5f5; color: #7b1fa2; }
+        .activity-title-nsc { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 14px; color: var(--deep-blue); margin-bottom: 4px; }
+        .activity-desc-nsc { font-size: 12px; color: #888; margin: 0; }
+        .activity-content-nsc { display: none; margin-top: 16px; padding-top: 16px; border-top: 2px solid var(--soft-cream); }
+        .activity-content-nsc.open { display: block; animation: fadeInUp 0.3s ease; }
+        .question-block-nsc { margin-bottom: 16px; }
+        .question-block-nsc h4 { font-family: 'Poppins', sans-serif; font-size: 13px; font-weight: 600; color: var(--deep-blue); margin-bottom: 8px; }
+        .question-block-nsc ol { padding-left: 20px; }
+        .question-block-nsc ol li { margin-bottom: 8px; font-size: 13px; color: #555; line-height: 1.6; }
+        .marks-nsc { color: var(--sunset-orange); font-weight: 600; font-size: 12px; }
+        .memo-toggle-nsc { padding: 10px 20px; background: var(--deep-blue); color: white; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 12px; border: none; border-radius: 50px; cursor: pointer; transition: all 0.3s ease; margin-top: 12px; }
+        .memo-toggle-nsc:hover { background: var(--vibrant-green); transform: translateY(-2px); }
+        .memo-nsc { display: none; background: var(--light-green); border: 2px solid #c8e6c9; border-radius: 12px; padding: 16px; margin-top: 12px; }
+        .memo-nsc.open { display: block; animation: fadeInUp 0.3s ease; }
+        .memo-nsc h4 { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 13px; color: var(--vibrant-green); margin-bottom: 12px; }
+        .memo-item-nsc { margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid #e8f5e9; }
+        .memo-item-nsc:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .memo-item-nsc p { font-size: 12px; color: #555; margin: 0; line-height: 1.6; }
+        .memo-item-nsc .answer { color: var(--deep-blue); font-weight: 600; }
+        .memo-item-nsc .allocation { color: var(--sunset-orange); font-size: 11px; margin-top: 4px; }
+        .cognitive-legend-nsc { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; padding: 12px; background: white; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+        .cognitive-legend-nsc span { font-size: 12px; color: #666; display: flex; align-items: center; gap: 6px; }
+        .dot-nsc { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+        .dot-l1 { background: var(--vibrant-green); }
+        .dot-l2 { background: var(--deep-blue); }
+        .dot-l3 { background: var(--warm-gold); }
+        .dot-l4 { background: var(--sunset-orange); }
+        .sepedi-header { background: linear-gradient(135deg, #f3e5f5, transparent) !important; }
+        .sepedi-icon { background: #f3e5f5 !important; }
+
+        </style>
+<base target="_blank">
 </head>
 <body>
 
@@ -1319,6 +1374,781 @@
 
         </div>
     </section>
+    <!-- NSC PRACTICE ACTIVITY BANK -->
+    <section class="nsc-bank-section" id="resources">
+        <div class="nsc-container">
+            <div class="section-header">
+                <h2>📚 NSC Practice Activity Bank</h2>
+                <p>Real DBE exam-style questions for Grades 10–12. English FAL, Mathematics, Physical Sciences & Sepedi HL — with full memoranda, Barrett's levels, and time guides.</p>
+            </div>
+
+            <div class="cognitive-legend-nsc">
+                <span><span class="dot-nsc dot-l1"></span> L1: Knowledge</span>
+                <span><span class="dot-nsc dot-l2"></span> L2: Comprehension</span>
+                <span><span class="dot-nsc dot-l3"></span> L3: Analysis</span>
+                <span><span class="dot-nsc dot-l4"></span> L4: Evaluation</span>
+            </div>
+
+            <div class="grade-tabs-nsc">
+                <button class="grade-tab-nsc active" onclick="switchGradeNsc('g10')">Grade 10</button>
+                <button class="grade-tab-nsc" onclick="switchGradeNsc('g11')">Grade 11</button>
+                <button class="grade-tab-nsc" onclick="switchGradeNsc('g12')">Grade 12</button>
+            </div>
+
+            <!-- GRADE 10 -->
+            <div id="g10" class="grade-panel-nsc active">
+                <div class="subjects-grid-nsc">
+                    <!-- ENGLISH FAL -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc">
+                            <div class="subject-icon-nsc">📖</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">English FAL</h3><p style="font-size:12px;color:#888;margin:0;">Language, Comprehension & Literature</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.1 — Language Structures & Conventions</div>
+                            <p class="activity-desc-nsc">Parts of speech, concord, punctuation, and register (Adapted: DBE Common 2018, 2019)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1: PARTS OF SPEECH & CONCORD</h4><ol><li>Identify the part of speech of the underlined word: <em>"The learners <u>quickly</u> completed their assignments."</em> <span class="marks-nsc">[1]</span></li><li>Correct the error of concord: <em>"The group of learners are going to the library."</em> <span class="marks-nsc">[1]</span></li><li>Change to passive voice: <em>"The teacher marked the scripts."</em> <span class="marks-nsc">[2]</span></li><li>Provide the correct form: <em>"The (success) candidate was announced."</em> <span class="marks-nsc">[1]</span></li><li>Identify the figure of speech: <em>"The wind whispered through the trees."</em> <span class="marks-nsc">[1]</span></li><li>Insert correct punctuation: <em>"The principal shouted Stop running in the corridor"</em> <span class="marks-nsc">[3]</span></li><li>Rewrite in formal register: <em>"The kids ain't gonna do their homework."</em> <span class="marks-nsc">[2]</span></li><li>Explain denotation vs connotation with an example. <span class="marks-nsc">[3]</span></li><li>Correct: <em>"Between you and I, this is the best decision."</em> <span class="marks-nsc">[2]</span></li><li>Combine using a relative clause: <em>"The boy is my friend. He won the debate."</em> <span class="marks-nsc">[2]</span></li><li>Provide the antonym of <em>"ambiguous"</em> and use it in a sentence. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Adverb</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">"The group of learners <u>is</u> going..."</span> (collective noun = singular) <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">"The scripts were marked by the teacher."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">successful</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Personification</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">"The principal shouted, 'Stop running in the corridor!'"</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">"The children are not going to complete their homework."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">Denotation = dictionary meaning; Connotation = emotional/associative meaning.</span> Example: "snake" denotes reptile, connotes deceit. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">"Between you and <u>me</u>..."</span> (object of preposition) <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">"The boy <u>who won the debate</u> is my friend."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">Clear / explicit / definite.</span> Sentence must be correct. <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.2 — Comprehension & Inference</div>
+                            <p class="activity-desc-nsc">Unseen passage with literal, inferential, and evaluative questions (Adapted: DBE Common 2017, 2019)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>READ THE PASSAGE AND ANSWER THE QUESTIONS.</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid var(--deep-blue);font-style:italic;line-height:1.7;color:#555;font-size:13px;">Thabo had always walked past the old community centre on his way to school. For years, the building had stood empty, its windows boarded up and its walls covered in graffiti. But one morning, he noticed something different. A group of volunteers had gathered outside, armed with paintbrushes, brooms, and buckets of soapy water. An elderly woman was directing them with a clipboard in her hand. Thabo paused. He had never considered that someone his grandmother's age could lead such an effort. Without thinking, he dropped his school bag and picked up a broom.</p></div><div class="question-block-nsc"><h4>QUESTIONS</h4><ol><li>State <strong>two</strong> visual details that suggest the community centre had been neglected. <span class="marks-nsc">[2]</span></li><li>What does the word "armed" suggest about the volunteers' attitude? <span class="marks-nsc">[2]</span></li><li>Why does Thabo find the elderly woman's leadership surprising? <span class="marks-nsc">[2]</span></li><li>Identify the turning point and explain its significance. <span class="marks-nsc">[3]</span></li><li>Discuss how the writer creates a sense of hope. Refer to <strong>two</strong> techniques. <span class="marks-nsc">[4]</span></li><li>In your view, what does Thabo's final action reveal about his character? Substantiate. <span class="marks-nsc">[3]</span></li><li>Propose a suitable title. Motivate your choice. <span class="marks-nsc">[2]</span></li><li>Explain the meaning of "neglected" as used in the passage. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Windows boarded up; walls covered in graffiti.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Prepared, determined, ready for hard work.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">He held a stereotype that leadership is for younger people.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">"But one morning, he noticed something different."</span> Signals change from despair to hope. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Contrast (neglect vs. action); imagery of cleaning/painting (symbolic renewal).</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Open-minded, community-minded, willing to act.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">"A New Beginning" / "The Morning Shift" / "Community in Action"</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">Not cared for; abandoned; left in disrepair.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.3 — Poetry: "Handcuffs" by Mtshali</div>
+                            <p class="activity-desc-nsc">Imagery, theme, tone, and evaluation (Adapted: DBE Common 2017, 2019)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>READ THE POEM AND ANSWER THE QUESTIONS.</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid var(--warm-gold);line-height:1.7;color:#555;font-size:13px;font-style:italic;">"Handcuffs"<br><br>They come to our house at dawn,<br>with their guns and their handcuffs,<br>to arrest my father.<br><br>My mother wails,<br>my little sister cries,<br>and I stand there helpless,<br>watching them take him away.<br><br>The neighbours gather like vultures,<br>waiting to pick the bones<br>of our dignity.</p></div><div class="question-block-nsc"><h4>QUESTIONS</h4><ol><li>Identify the tone of the poem in the first stanza. <span class="marks-nsc">[2]</span></li><li>Explain the effect of the word "wails" in line 4. <span class="marks-nsc">[2]</span></li><li>Discuss the simile "like vultures" and its contribution to the poem's meaning. <span class="marks-nsc">[4]</span></li><li>What does "pick the bones of our dignity" suggest about the neighbours? <span class="marks-nsc">[3]</span></li><li>How does the poet convey the speaker's sense of powerlessness? <span class="marks-nsc">[3]</span></li><li>Discuss the central theme of the poem. <span class="marks-nsc">[3]</span></li><li>Evaluate whether the title "Handcuffs" is effective. Motivate. <span class="marks-nsc">[3]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Fearful, ominous, threatening, tense.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">"Wails" conveys intense grief and despair — a loud, prolonged cry of anguish.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Neighbours compared to vultures — scavengers feeding on death/decay.</span> Suggests opportunism, cruelty, dehumanisation. <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Gossip-mongers who enjoy the family's humiliation; strip away pride.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">"I stand there helpless" — direct statement; passive observer vs active authorities.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Oppression / Loss of dignity / Political persecution.</span> Exposes apartheid-era police raids. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Effective.</span> Symbolises literal imprisonment and metaphorical bondage of apartheid. <span class="allocation">[3]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- MATHEMATICS -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc" style="background:linear-gradient(135deg,var(--light-green),transparent);">
+                            <div class="subject-icon-nsc" style="background:var(--light-green);">📐</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Mathematics</h3><p style="font-size:12px;color:#888;margin:0;">Algebra, Patterns, Geometry & Finance</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.1 — Number Patterns & Sequences</div>
+                            <p class="activity-desc-nsc">Linear, quadratic, and matchstick patterns (Adapted: DBE Common 2016, 2018)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1</h4><ol><li>Consider the linear pattern: 5; 8; 11; 14; ...<br>1.1 Determine the next two terms. <span class="marks-nsc">[2]</span><br>1.2 Determine the general term, T<sub>n</sub>. <span class="marks-nsc">[3]</span><br>1.3 Which term is equal to 41? <span class="marks-nsc">[2]</span></li><li>Consider the quadratic pattern: 2; 6; 12; 20; 30; ...<br>2.1 Determine the second difference. <span class="marks-nsc">[2]</span><br>2.2 Determine the general term, T<sub>n</sub>. <span class="marks-nsc">[4]</span><br>2.3 Calculate the 10th term. <span class="marks-nsc">[2]</span></li><li>Matchsticks form squares: Pattern 1 = 4, Pattern 2 = 7, Pattern 3 = 10.<br>3.1 How many for Pattern 5? <span class="marks-nsc">[2]</span><br>3.2 General rule for matchsticks m in terms of n. <span class="marks-nsc">[3]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.1</strong> <span class="answer">17; 20</span> (d = 3) <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>1.2</strong> <span class="answer">T<sub>n</sub> = 3n + 2</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>1.3</strong> <span class="answer">n = 13</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> <span class="answer">Second difference = 2</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> <span class="answer">T<sub>n</sub> = n² + n</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>2.3</strong> <span class="answer">T<sub>10</sub> = 110</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> <span class="answer">16</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">m = 3n + 1</span> <span class="allocation">[3]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">25 min</span>
+                                <span class="meta-tag-nsc meta-marks">15 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.2 — Algebraic Equations & Inequalities</div>
+                            <p class="activity-desc-nsc">Linear, quadratic, simultaneous equations (Adapted: DBE Common 2017, 2018)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 2</h4><ol><li>Solve for x: 3(x - 2) + 2(2x + 1) = 23 <span class="marks-nsc">[3]</span></li><li>Solve for x: x² - 5x + 6 = 0 <span class="marks-nsc">[3]</span></li><li>Solve for x: 2x² - 8 = 0 <span class="marks-nsc">[2]</span></li><li>Solve simultaneously: 2x + y = 7 and x - y = -1 <span class="marks-nsc">[4]</span></li><li>Solve for x and show on a number line: 3x - 5 &lt; 10 <span class="marks-nsc">[3]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">x = 27/7 or 3 6/7</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">x = 2 or x = 3</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">x = ±2</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">x = 2, y = 3</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">x &lt; 5</span>. Open circle at 5, shaded left. <span class="allocation">[3]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.3 — Euclidean Geometry</div>
+                            <p class="activity-desc-nsc">Similarity, proportion, and area ratios (Adapted: DBE Common 2017, 2019)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 3</h4><p style="font-size:13px;color:#555;margin-bottom:8px;">In ΔABC, D and E are points on AB and AC respectively such that DE || BC. AD = 4 cm, DB = 6 cm, and AE = 5 cm.</p><ol><li>Prove that ΔADE ||| ΔABC. <span class="marks-nsc">[3]</span></li><li>Calculate the length of EC. <span class="marks-nsc">[3]</span></li><li>If the area of ΔADE is 12 cm², calculate the area of quadrilateral DBCE. <span class="marks-nsc">[5]</span></li><li>State the converse of the theorem you used in Q3.1. <span class="marks-nsc">[2]</span></li><li>In the diagram below, PQ || RS. Prove that ΔPQT ||| ΔSRT. <span class="marks-nsc">[4]</span></li><li>Name another pair of similar triangles. <span class="marks-nsc">[1]</span></li><li>If PT = 6 cm, TQ = 4 cm, and TR = 8 cm, calculate TS. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> ∠A common. ∠ADE = ∠ABC (corresp, DE || BC). ∠AED = ∠ACB (corresp). <span class="answer">∴ ΔADE ||| ΔABC (AAA)</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> AD/DB = AE/EC → 4/6 = 5/EC → <span class="answer">EC = 7.5 cm</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> AD/AB = 4/10. Area ratio = (2/5)² = 4/25. Area ABC = 75 cm². <span class="answer">Area DBCE = 63 cm²</span> <span class="allocation">[5]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">If a line divides two sides proportionally, it is parallel to the third side.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> ∠PTQ = ∠STR (vert opp). ∠QPT = ∠TSR (alt, PQ || RS). ∠PQT = ∠TRS (alt). <span class="answer">∴ ΔPQT ||| ΔSRT (AAA)</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">ΔPQT ||| ΔSRT</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> PT/TR = TQ/TS → 6/8 = 4/TS → <span class="answer">TS = 16/3 ≈ 5.33 cm</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- PHYSICAL SCIENCES -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc" style="background:linear-gradient(135deg,var(--light-gold),transparent);">
+                            <div class="subject-icon-nsc" style="background:var(--light-gold);">⚛️</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Physical Sciences</h3><p style="font-size:12px;color:#888;margin:0;">Mechanics, Electricity & Chemistry</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.1 — Mechanics: Motion & Graphs</div>
+                            <p class="activity-desc-nsc">Kinematics, equations of motion, position-time and velocity-time graphs (Adapted: DBE Common 2016, 2017)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1</h4><ol><li>Define <strong>velocity</strong>. <span class="marks-nsc">[2]</span></li><li>A car accelerates uniformly from rest at 2 m·s⁻² for 5 seconds.<br>2.1 Calculate the final velocity. <span class="marks-nsc">[3]</span><br>2.2 Calculate the displacement. <span class="marks-nsc">[3]</span></li><li>Velocity-time graph: v=20 at t=0 to v=0 at t=2s, to v=-20 at t=4s.<br>3.1 Calculate the acceleration. <span class="marks-nsc">[3]</span><br>3.2 Describe motion between t = 2 s and t = 4 s. <span class="marks-nsc">[2]</span><br>3.3 Calculate maximum height. <span class="marks-nsc">[4]</span><br>3.4 Calculate total displacement after 4 s. <span class="marks-nsc">[3]</span><br>3.5 Calculate total distance travelled. <span class="marks-nsc">[2]</span></li><li>State Newton's First Law. <span class="marks-nsc">[2]</span></li><li>Explain why passengers lurch forward when a driver brakes suddenly. <span class="marks-nsc">[1]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Rate of change of displacement.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> v = u + at = 0 + (2)(5) = <span class="answer">10 m·s⁻¹</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> s = ut + ½at² = 0 + ½(2)(5)² = <span class="answer">25 m</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> a = Δv/Δt = (0-20)/2 = <span class="answer">-10 m·s⁻²</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">Ball falls back down, accelerating downwards.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.3</strong> Area = ½ × 2 × 20 = <span class="answer">20 m</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>3.4</strong> <span class="answer">0 m</span> (returns to start) <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.5</strong> <span class="answer">40 m</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">A body remains in its state of rest or uniform motion unless acted upon by an unbalanced force.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Inertia.</span> Passengers continue moving forward. <span class="allocation">[1]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.2 — Electricity: Circuits & Ohm's Law</div>
+                            <p class="activity-desc-nsc">Series and parallel circuits, Ohm's Law, power and energy (Adapted: DBE Common 2017, 2018)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 2</h4><ol><li>State Ohm's Law in words. <span class="marks-nsc">[2]</span></li><li>A 12 V battery connected to R₁ = 4 Ω and R₂ = 8 Ω in series.<br>2.1 Calculate total resistance. <span class="marks-nsc">[2]</span><br>2.2 Calculate current. <span class="marks-nsc">[3]</span><br>2.3 Calculate potential difference across R₁. <span class="marks-nsc">[3]</span><br>2.4 Calculate power dissipated by R₂. <span class="marks-nsc">[3]</span></li><li>Same resistors in parallel across 12 V.<br>3.1 Calculate total resistance. <span class="marks-nsc">[3]</span><br>3.2 Calculate total current. <span class="marks-nsc">[2]</span><br>3.3 Why is parallel advantageous in household wiring? <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Current through a conductor is directly proportional to the potential difference across it at constant temperature.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> R<sub>T</sub> = 4 + 8 = <span class="answer">12 Ω</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> I = V/R = 12/12 = <span class="answer">1 A</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.3</strong> V₁ = I·R₁ = (1)(4) = <span class="answer">4 V</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.4</strong> P = I²R = (1)²(8) = <span class="answer">8 W</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> 1/R<sub>T</sub> = 1/4 + 1/8 = 3/8 → R<sub>T</sub> = <span class="answer">2.67 Ω</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> I = 12/2.67 = <span class="answer">4.5 A</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.3</strong> <span class="answer">Each appliance operates independently at full voltage.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.3 — Chemistry: Atomic Structure & Bonding</div>
+                            <p class="activity-desc-nsc">Isotopes, electron configuration, and chemical bonding (Adapted: DBE Common 2016, 2018)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 3</h4><ol><li>Define an <strong>isotope</strong>. <span class="marks-nsc">[2]</span></li><li>Chlorine has two stable isotopes: ³⁵Cl (75%) and ³⁷Cl (25%).<br>2.1 Calculate the relative atomic mass. <span class="marks-nsc">[3]</span><br>2.2 Why do these isotopes have identical chemical properties? <span class="marks-nsc">[2]</span></li><li>Write electron configuration (spdf) for:<br>3.1 Magnesium (Z = 12) <span class="marks-nsc">[2]</span><br>3.2 Chlorine (Z = 17) <span class="marks-nsc">[2]</span></li><li>Explain the difference between ionic and covalent bonding in terms of:<br>4.1 Particles involved <span class="marks-nsc">[2]</span><br>4.2 Transfer or sharing of electrons <span class="marks-nsc">[2]</span><br>4.3 Type of elements involved <span class="marks-nsc">[2]</span></li><li>Draw a Lewis dot diagram for water (H₂O). <span class="marks-nsc">[3]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Atoms of the same element with same number of protons but different numbers of neutrons.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> RAM = (35 × 0.75) + (37 × 0.25) = <span class="answer">35.5 u</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> <span class="answer">Same electron configuration.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> <span class="answer">1s² 2s² 2p⁶ 3s²</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">1s² 2s² 2p⁶ 3s² 3p⁵</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.1</strong> Ionic: <span class="answer">Metal + Non-metal → ions</span>. Covalent: <span class="answer">Non-metal + Non-metal → molecules</span>. <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.2</strong> Ionic: <span class="answer">Transfer</span>. Covalent: <span class="answer">Sharing</span>. <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.3</strong> Ionic: <span class="answer">Metal loses, non-metal gains.</span> Covalent: <span class="answer">Both non-metals share.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> O central with 6 valence e⁻. Two H each share 1 e⁻. <span class="answer">Two single bonds, two lone pairs on oxygen.</span> <span class="allocation">[3]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- SEPEDI HL -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc sepedi-header">
+                            <div class="subject-icon-nsc sepedi-icon">📚</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Sepedi HL</h3><p style="font-size:12px;color:#888;margin:0;">Thutapolelo, Mopeleto le Dingwalwa</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.1 — Mopeleto le Ditlhaka (Language Structures)</div>
+                            <p class="activity-desc-nsc">Ditlhaka, thwii, puo ya mesomo/metswako, le dipolelo (Adapted: DBE Common 2018, 2019)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>POTšiŠO 1: DITLHAKA LE THWII</h4><ol><li>Hwetša karolo ya puo ya lentšu le latelago ka tlase: <em>"Batho ba <u>kakaretšo</u> ba tla ba gona."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša phošo ya thwii mo polelong ye: <em>"Sehlopha sa barutwana ba ya gae."</em> <span class="marks-nsc">[1]</span></li><li>Badika polelo ye e latelago go e fetola go ba puo ya go se bolewe: <em>"Mosadi o tšhaba ka lebelo."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta wa polelo: <em>"Noka e bolela ka go feta."</em> <span class="marks-nsc">[1]</span></li><li>Tlatša ka polelo ye e feletšego: <em>"Bjale ke a ___ (tseba) gore o tla tla."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša phošo ya tlhaka: <em>"Ke rata go <u>bona</u> puku."</em> <span class="marks-nsc">[1]</span></li><li>Kgetha karabo ye nepagetšego: Polelo ya go se bolewe ke:<br>A) Puo yeo e bolelwago ke motho a sa le gona.<br>B) Puo yeo e ngwalwago.<br>C) Puo yeo e bolelwago ke motho a le gona. <span class="marks-nsc">[1]</span></li><li>Ngwala polelo ye e latelago ka puo ya mesomo: <em>"Mosetsana o a opela."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta wa polelo: <em>"A re ye kua!"</em> <span class="marks-nsc">[1]</span></li><li>Tlatša ka tlhaka ye e feletšego: <em>"Puku ye ke ya ___ (nna)."</em> <span class="marks-nsc">[1]</span></li><li>Kgetha karabo ye nepagetšego: "Go raka" ke:<br>A) Lehlaka<br>B) Lehlaka la go raka<br>C) Sehlaka <span class="marks-nsc">[1]</span></li><li>Ngwala polelo ye e latelago ka puo ya bjale: <em>"Bana ba ja."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta wa polelo: <em>"Ngwana o a bolela."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša phošo ya tlhaka: <em>"Ke tla <u>tla</u> gosasa."</em> <span class="marks-nsc">[1]</span></li><li>Tlatša ka tlhaka ye e feletšego: <em>"Batho ba ___ (tseba) taba ye."</em> <span class="marks-nsc">[1]</span></li><li>Kgetha karabo ye nepagetšego: "Go šupa" ke:<br>A) Lehlaka<br>B) Lehlaka la go šupa<br>C) Sehlaka <span class="marks-nsc">[1]</span></li><li>Ngwala polelo ye e latelago ka puo ya go se bolewe: <em>"Motho o a bolela."</em> <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Lehlaka la go bolela / lehlaka la go laetša bohwete</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">"Sehlopha sa barutwana <u>se</u> ya gae."</span> (Thwii: sehlopha = bong) <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">"Go bolelwa gore mosadi o a tšhaba ka lebelo."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Tshupetšo / Personification</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">tseba</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">"Ke rata go <u>bala</u> puku."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">C</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">"Mosetsana o a opela ka lentšu le le bolelago."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">Taelo / Imperative</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">ka</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">B</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>12.</strong> <span class="answer">"Bana ba a ja bjale."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>13.</strong> <span class="answer">Tšhupetšo / Personification</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>14.</strong> <span class="answer">"Ke tla <u>fihla</u> gosasa."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>15.</strong> <span class="answer">tseba</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>16.</strong> <span class="answer">B</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>17.</strong> <span class="answer">"Go bolelwa gore motho o a bolela."</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.2 — Thutapolelo (Comprehension)</div>
+                            <p class="activity-desc-nsc">Sengwalwa sa go sa bolelwa ka tlhalošo, kgopolo ya ka gare, le tekolo (Adapted: DBE Common 2017, 2019)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>BA LA SENGWALWA SE SE LATELAGO GOMME O ARABE POTšiŠO.</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid #7b1fa2;font-style:italic;line-height:1.7;color:#555;font-size:13px;">Kgoshi Mmatharišo o be a tsebega ka bokgoshi bjo bontšhago botho le toka. O be a re batho ba motse wa gagwe ba swanetše go ba le maemo a go phela ka one. Ka letšatši le lengwe, go tšweletšwe bothata bja meetse. Meetse a be a se gona gantsi, gomme dimela di be di a hweta. Kgoshi o ile a tliša barutisi ba meetse go hwetša tharollo. Morago ga dikgwedi tše mmalwa, pula ya na gantsi, gomme meetse a tletše. Batho ba motse ba thabile, gomme ba ile ba tlotlwa Kgoshi ka bokgoshi bjo bokgonne.</p></div><div class="question-block-nsc"><h4>POTšiŠO</h4><ol><li>Kgetha karabo ye nepagetšego: Kgoshi Mmatharišo o be a tsebega ka eng?<br>A) Bokgoshi bjo bokgonne<br>B) Bokgoshi bjo bontšhago botho le toka<br>C) Bokgoshi bjo bontšhago maatla <span class="marks-nsc">[1]</span></li><li>Tšweletša dintlha TŠE PEDI tše di bontšhago gore Kgishi o be a kgatholle batho ba gagwe. <span class="marks-nsc">[2]</span></li><li>Bothata bjo bo tšweletšwego ke bofe? <span class="marks-nsc">[1]</span></li><li>Tšweletša tsela yeo Kgoshi a hwetšago tharollo ka yona. <span class="marks-nsc">[2]</span></li><li>"Dimela di be di a hweta" — Tšweletša maikemisetso a mongwadi ge a ngwala lefoko le. <span class="marks-nsc">[2]</span></li><li>Na o nagana gore Kgoshi Mmatharišo ke sebopego sa go raka? Hlaloša karabo ya gago. <span class="marks-nsc">[3]</span></li><li>Tšweletša ponelopele ya gago mabapi le tšhupo yeo e laetšwago ke sengwalwa se. <span class="marks-nsc">[3]</span></li><li>Tlatša ka tlhaka yeo e feletšego: <em>"Batho ba motse ba ___ (thabiša) ke meetse."</em> <span class="marks-nsc">[1]</span></li><li>Kgetha karabo ye nepagetšego: "Tlotlwa" mo sengwalweng se ra gore:<br>A) Go raka motho<br>B) Go hlompha motho<br>C) Go bontšha bothata <span class="marks-nsc">[1]</span></li><li>Tšweletša mohola wa go bolela wa sengwalwa se. <span class="marks-nsc">[2]</span></li><li>Ngwala polelo ye e latelago ka puo ya mesomo: <em>"Batho ba thabile."</em> <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">B</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">O be a batla maemo a go phela; o ile a tliša barutisi go hwetša tharollo ya meetse.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Bothata bja meetse / go hloka meetse.</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">O ile a tliša barutisi ba meetse go hwetša tharollo.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Go laetša bothata bjo bo bohlokwa; go tšweletša maemo a go swana le a nnete.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Ee, ke sebopego sa go raka.</span> O bontšha botho, toka, le bokgoni bja go raka batho. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Bokgoshi bjo bontšhago botho le toka bo a thuša batho.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">thabišitšwe</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">B</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">Go tsebisa / Go ruta batho gore bokgoshi bjo bontšhago botho bo a bohlokwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">"Go bolelwa gore batho ba a thabiša."</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.3 — Sereto: "Pula" (Poetry)</div>
+                            <p class="activity-desc-nsc">Tshupetšo, morero, moya, le tekolo (Adapted: DBE Common 2017, 2019)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>BA LA SERETO SE GOMME O ARABE POTšiŠO.</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid #7b1fa2;line-height:1.7;color:#555;font-size:13px;font-style:italic;">"Pula"<br><br>Pula e a na,<br>marota a tletše meetse,<br>dimela di a gola,<br>batho ba a thaba.<br><br>Pula ya mahlogonolo,<br>e re fileng bophelo,<br>e re fileng dijo,<br>re a go leboha.</p></div><div class="question-block-nsc"><h4>POTšiŠO</h4><ol><li>Kgetha karabo ye nepagetšego: Sereto se se bolela ka eng?<br>A) Go hloka meetse<br>B) Pula le bophelo<br>C) Bothata bja dimela <span class="marks-nsc">[1]</span></li><li>Tšweletša mohuta wa puo woo o šomišitšwego mo seretong. <span class="marks-nsc">[2]</span></li><li>"Dimela di a gola" — ke eng maikemisetso a mongwadi? <span class="marks-nsc">[2]</span></li><li>Tšweletša dintlha TŠE PEDI tše di bontšhago gore pula e bohlokwa. <span class="marks-nsc">[3]</span></li><li>Sereto se se šomiša tshupetšo efe? Hlaloša. <span class="marks-nsc">[3]</span></li><li>Na o nagana gore sehlabelo sa "Pula" se a bohlokwa? Hlaloša. <span class="marks-nsc">[3]</span></li><li>Tšweletša moya wa sereto se. <span class="marks-nsc">[2]</span></li><li>Ngwala polelo ye e latelago ka puo ya go se bolewe: <em>"Batho ba a thaba."</em> <span class="marks-nsc">[2]</span></li><li>Tšweletša mohola wa go bolela wa sereto se. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">B</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Tshupetšo / Personification — pula e filwe maikemisetso a motho.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Go laetša bophelo le go gola; go bontšha gore pula e a bohlokwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Marota a tletše meetse; dimela di a gola; batho ba a thaba; e re fila bophelo.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Tshupetšo ya motho — "Pula ya mahlogonolo" e bolela ka pula bjalo ka motho.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Ee, se a bohlokwa.</span> Se hlabela batho go leboha pula; se gopola bophelo. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Go thabiša / Go leboha / Go tlotlwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">"Go bolelwa gore batho ba a thabiša."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">Go leboha pula le go bontšha bokgoni bja yona go fa bophelo.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GRADE 11 -->
+            <div id="g11" class="grade-panel-nsc">
+                <div class="subjects-grid-nsc">
+                    <!-- ENGLISH FAL -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc">
+                            <div class="subject-icon-nsc">📖</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">English FAL</h3><p style="font-size:12px;color:#888;margin:0;">Language, Comprehension & Literature</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.1 — Language Structures & Conventions</div>
+                            <p class="activity-desc-nsc">Concord, reported speech, active/passive voice, and figures of speech (Adapted: DBE Common 2020, 2021)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1</h4><ol><li>Correct the error of concord: <em>"The number of learners who have passed <u>are</u> increasing."</em> <span class="marks-nsc">[1]</span></li><li>Change to reported speech: <em>"I will submit my assignment tomorrow," said Thandi.</em> <span class="marks-nsc">[2]</span></li><li>Change to active voice: <em>"The window was broken by the learners."</em> <span class="marks-nsc">[2]</span></li><li>Identify the figure of speech: <em>"The whole world is watching our tournament."</em> <span class="marks-nsc">[1]</span></li><li>Provide the adverb form of <em>"dramatic"</em> and use it in a sentence. <span class="marks-nsc">[2]</span></li><li>Combine using a noun clause: <em>"Will the strike end soon? This is uncertain."</em> <span class="marks-nsc">[2]</span></li><li>Correct the dangling modifier: <em>"Walking down the street, the trees were beautiful."</em> <span class="marks-nsc">[2]</span></li><li>Explain the difference between <em>"affect"</em> and <em>"effect"</em>. Use each in a sentence. <span class="marks-nsc">[4]</span></li><li>Identify and correct: <em>"Neither the teachers nor the principal <u>are</u> present."</em> <span class="marks-nsc">[2]</span></li><li>Rewrite in formal register: <em>"The dude was totally stoked about his marks."</em> <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">"The number... <u>is</u> increasing."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Thandi said that she would submit her assignment the next day.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">"The learners broke the window."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Hyperbole</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">dramatically</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">"Whether the strike will end soon is uncertain."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">"Walking down the street, I thought the trees were beautiful."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">Affect = verb (to influence). Effect = noun (result).</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">"Neither... nor the principal <u>is</u> present."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">"The young man was extremely pleased with his results."</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.2 — Visual Literacy & Comprehension</div>
+                            <p class="activity-desc-nsc">Cartoon analysis, advertisement, and unseen passage (Adapted: DBE Common 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 2: VISUAL LITERACY</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid var(--deep-blue);color:#555;font-size:13px;"><strong>Cartoon:</strong> A large tree labelled "Education" with deep roots. A politician saws at the base while children wait underneath with empty bowls labelled "Future."</p><ol><li>Identify the symbolism of the tree. <span class="marks-nsc">[2]</span></li><li>What message is the cartoonist conveying? <span class="marks-nsc">[3]</span></li><li>Discuss the irony in the children holding bowls labelled "Future." <span class="marks-nsc">[3]</span></li><li>Propose a suitable caption. Motivate. <span class="marks-nsc">[2]</span></li></ol></div><div class="question-block-nsc"><h4>QUESTION 3: UNSEEN PASSAGE</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid var(--deep-blue);font-style:italic;color:#555;font-size:13px;line-height:1.7;">Social media has fundamentally altered how young people construct their identities. No longer shaped solely by family and community, the self is now curated through filters, likes, and carefully selected highlights. The danger lies not in the technology itself, but in the illusion that validation can be measured in followers.</p><ol start="5"><li>State the writer's main argument in your own words. <span class="marks-nsc">[2]</span></li><li>Explain "curated through filters." <span class="marks-nsc">[2]</span></li><li>Discuss the validity of the view that "validation cannot be measured in followers." <span class="marks-nsc">[4]</span></li><li>Identify the tone and explain how it is created. <span class="marks-nsc">[3]</span></li><li>Suggest a suitable title. Motivate. <span class="marks-nsc">[2]</span></li><li>Explain "fundamentally" as used. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Education as a living, growing system that sustains society.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Politician destroys education foundation for short-term gain.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Children expect nourishment from education, but the system is being destroyed.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">"Cutting Down Our Future" / "The Roots of Destruction"</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Social media changed identity formation; seeking validation online is problematic.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Identity is artificially constructed — only best moments shown.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Valid.</span> Followers are quantitative, not qualitative. True validation from real relationships. <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">Cautionary / critical.</span> Evaluative vocabulary: "danger," "illusion." <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">"The Filtered Self" / "Identity in the Age of Likes"</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">At the most basic level; completely; radically.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">40 min</span>
+                                <span class="meta-tag-nsc meta-marks">30 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.3 — Transactional Writing: Formal Letter</div>
+                            <p class="activity-desc-nsc">Letter to the editor / formal complaint with rubric (Adapted: DBE Common 2020, 2021)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>TASK</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid var(--warm-gold);color:#555;font-size:13px;line-height:1.7;">The roads in your community have become dangerous due to potholes and lack of street lighting. Write a <strong>formal letter</strong> to the local municipality requesting urgent intervention. Between 120 and 150 words.</p><h4 style="margin-top:16px;font-family:Poppins,sans-serif;font-size:14px;font-weight:600;color:var(--deep-blue);">RUBRIC</h4><table style="width:100%;border-collapse:collapse;margin-top:8px;font-size:12px;color:#555;"><tr style="border-bottom:1px solid #eee;"><td style="padding:6px;font-weight:600;">Format & Address</td><td style="padding:6px;">[4]</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:6px;font-weight:600;">Content & Relevance</td><td style="padding:6px;">[8]</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:6px;font-weight:600;">Language & Tone</td><td style="padding:6px;">[8]</td></tr><tr><td style="padding:6px;font-weight:600;">Paragraphing & Length</td><td style="padding:6px;">[4]</td></tr><tr style="border-top:2px solid #eee;"><td style="padding:6px;font-weight:700;">TOTAL</td><td style="padding:6px;font-weight:700;">[30]</td></tr></table></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p style="font-style:italic;color:#888;margin-bottom:8px;">[Model answer — assess using rubric]</p><p class="answer">The Chairperson<br>Mogalakwena Municipality<br>Private Bag X123<br>Mokopane 0600<br><br>27 July 2026<br><br>Dear Sir/Madam<br><br><strong>RE: URGENT REPAIR OF ROADS AND INSTALLATION OF STREET LIGHTING</strong><br><br>I am writing on behalf of the residents of Extension 7 to bring to your attention the hazardous condition of our roads. For the past six months, numerous potholes have rendered the main road virtually impassable, particularly during the rainy season. Furthermore, the absence of street lighting has contributed to an alarming increase in criminal activity after dark.<br><br>These conditions pose a significant risk to motorists and pedestrians alike. We respectfully request that immediate remedial action be taken within the next thirty days. Should this matter remain unaddressed, we will have no alternative but to escalate our concerns to the provincial department.<br><br>We trust that you will treat this matter with the urgency it deserves and look forward to your prompt response.<br><br>Yours faithfully<br>Thabo Molefe<br>Chairperson: Extension 7 Community Forum</p><p class="allocation">[30 marks — assess using rubric]</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- MATHEMATICS -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc" style="background:linear-gradient(135deg,var(--light-green),transparent);">
+                            <div class="subject-icon-nsc" style="background:var(--light-green);">📐</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Mathematics</h3><p style="font-size:12px;color:#888;margin:0;">Exponents, Trigonometry & Analytical Geometry</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.1 — Exponents, Surds & Logarithms</div>
+                            <p class="activity-desc-nsc">Simplification, equations, and laws of logarithms (Adapted: DBE Common 2020, 2021)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1</h4><ol><li>Simplify without a calculator:<br>1.1 (8<sup>⅔</sup> × 16<sup>¾</sup>) / 32<sup>⅖</sup> <span class="marks-nsc">[4]</span><br>1.2 (√12 + √27) / √3 <span class="marks-nsc">[3]</span><br>1.3 (x⁻²y³)² × (x³y⁻²)⁻¹ <span class="marks-nsc">[3]</span></li><li>Solve for x:<br>2.1 3<sup>x+1</sup> = 27<sup>x-1</sup> <span class="marks-nsc">[3]</span><br>2.2 log₂(x) + log₂(x-2) = 3 <span class="marks-nsc">[4]</span><br>2.3 2<sup>2x</sup> - 5·2<sup>x</sup> + 4 = 0 <span class="marks-nsc">[3]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.1</strong> = 2² × 2³ / 2² = <span class="answer">8</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>1.2</strong> = (2√3 + 3√3) / √3 = <span class="answer">5</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>1.3</strong> = <span class="answer">x⁻⁷y⁸</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> <span class="answer">x = 2</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> <span class="answer">x = 4</span> (x ≠ -2) <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>2.3</strong> <span class="answer">x = 2 or x = 0</span> <span class="allocation">[3]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.2 — Trigonometry: Identities & Equations</div>
+                            <p class="activity-desc-nsc">Simplification, reduction, and general solutions (Adapted: DBE Common 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 2</h4><ol><li>Given sin θ = 3/5 and 90° < θ < 180°:<br>1.1 cos θ <span class="marks-nsc">[3]</span><br>1.2 tan θ <span class="marks-nsc">[2]</span><br>1.3 sin(180° + θ) <span class="marks-nsc">[2]</span></li><li>Simplify without a calculator:<br>2.1 sin(360° - x)·cos(180° - x) + cos²(360° + x) <span class="marks-nsc">[4]</span><br>2.2 (1 - cos²x) / sin x <span class="marks-nsc">[2]</span></li><li>Solve for x ∈ [0°; 360°]:<br>3.1 2 sin x - 1 = 0 <span class="marks-nsc">[3]</span><br>3.2 cos 2x = -½ <span class="marks-nsc">[4]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.1</strong> <span class="answer">cos θ = -4/5</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>1.2</strong> <span class="answer">tan θ = -3/4</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>1.3</strong> <span class="answer">-3/5</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> <span class="answer">cos x(sin x + cos x)</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> <span class="answer">sin x</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> <span class="answer">x = 30° or 150°</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">x = 60°, 120°, 240°, 300°</span> <span class="allocation">[4]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.3 — Analytical Geometry</div>
+                            <p class="activity-desc-nsc">Distance, midpoint, gradient, and equations of lines (Adapted: DBE Common 2021, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 3</h4><p style="font-size:13px;color:#555;margin-bottom:8px;">Points A(-2; 3), B(4; 7), and C(6; 1).</p><ol><li>Calculate the length of AB. <span class="marks-nsc">[2]</span></li><li>Determine the coordinates of M, the midpoint of AC. <span class="marks-nsc">[2]</span></li><li>Calculate the gradient of BC. <span class="marks-nsc">[2]</span></li><li>Determine the equation of the line through A parallel to BC. <span class="marks-nsc">[3]</span></li><li>Show that AB ⊥ BC. <span class="marks-nsc">[3]</span></li><li>Calculate the size of angle ABC. <span class="marks-nsc">[3]</span></li><li>Determine the area of ΔABC. <span class="marks-nsc">[3]</span></li><li>Point D is such that ABCD is a parallelogram. Find D. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">√52 or 2√13</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">(2; 2)</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">-3</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">y = -3x - 3</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> m<sub>AB</sub> = 2/3. m<sub>AB</sub> × m<sub>BC</sub> = -1. <span class="answer">∴ AB ⊥ BC</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">33.69°</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">22 units²</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">D(0; -3)</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- PHYSICAL SCIENCES -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc" style="background:linear-gradient(135deg,var(--light-gold),transparent);">
+                            <div class="subject-icon-nsc" style="background:var(--light-gold);">⚛️</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Physical Sciences</h3><p style="font-size:12px;color:#888;margin:0;">Newton's Laws, Electrostatics & Chemical Change</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.1 — Newton's Laws & Forces</div>
+                            <p class="activity-desc-nsc">Force diagrams, Newton's Second Law, friction (Adapted: DBE Common 2020, 2021)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1</h4><ol><li>State Newton's Second Law in words. <span class="marks-nsc">[2]</span></li><li>A 5 kg block is pulled by 30 N at 30°. μ<sub>k</sub> = 0.2.<br>2.1 Draw a free-body diagram. <span class="marks-nsc">[4]</span><br>2.2 Calculate the normal force. <span class="marks-nsc">[3]</span><br>2.3 Calculate friction. <span class="marks-nsc">[2]</span><br>2.4 Calculate acceleration. <span class="marks-nsc">[4]</span></li><li>Two blocks (3 kg and 5 kg) over a pulley.<br>3.1 Calculate acceleration. <span class="marks-nsc">[4]</span><br>3.2 Calculate tension. <span class="marks-nsc">[3]</span><br>3.3 Effect of massive string? <span class="marks-nsc">[2]</span></li><li>Explain gun recoil using Newton's Third Law. <span class="marks-nsc">[1]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">When a net force acts on an object, it accelerates in the direction of the net force.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> Forces: Weight, Normal, Applied, Friction. <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> N = 5(9.8) - 15 = <span class="answer">34 N</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.3</strong> f = 0.2 × 34 = <span class="answer">6.8 N</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.4</strong> a = 19.18/5 = <span class="answer">3.84 m·s⁻²</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> <span class="answer">2.45 m·s⁻²</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">36.75 N</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.3</strong> <span class="answer">Decreases</span> — force accelerates string. <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Gun forward on bullet; bullet backward on gun (equal & opposite).</span> <span class="allocation">[1]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.2 — Electrostatics</div>
+                            <p class="activity-desc-nsc">Coulomb's Law, electric field, and potential (Adapted: DBE Common 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 2</h4><ol><li>State Coulomb's Law. <span class="marks-nsc">[2]</span></li><li>Q₁ = +3 μC and Q₂ = -5 μC at 0.4 m.<br>2.1 Calculate force magnitude. <span class="marks-nsc">[4]</span><br>2.2 Attractive or repulsive? <span class="marks-nsc">[1]</span><br>2.3 Net E-field at midpoint. <span class="marks-nsc">[5]</span></li><li>+2 μC charge experiences 0.08 N.<br>3.1 E-field magnitude. <span class="marks-nsc">[3]</span><br>3.2 Direction. <span class="marks-nsc">[1]</span></li><li>Why does excess charge reside on outer surface? <span class="marks-nsc">[2]</span></li><li>Define electric potential. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Force ∝ product of charges; ∝ 1/r²</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> <span class="answer">0.844 N</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> <span class="answer">Attractive</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>2.3</strong> <span class="answer">1.8×10⁶ N·C⁻¹ right</span> <span class="allocation">[5]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> <span class="answer">4×10⁴ N·C⁻¹</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">Away from positive charge</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Like charges repel → outer surface. E=0 inside.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Work per unit charge to bring + test charge from ∞.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.3 — Stoichiometry</div>
+                            <p class="activity-desc-nsc">Balancing, mole calculations, limiting reagents (Adapted: DBE Common 2020, 2021)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 3</h4><ol><li>Balance: __Fe + __O₂ → __Fe₂O₃ <span class="marks-nsc">[2]</span></li><li>Molar mass of CaCO₃. <span class="marks-nsc">[2]</span></li><li>5.0 g CaCO₃ → CaO + CO₂<br>3.1 Moles CaCO₃. <span class="marks-nsc">[2]</span><br>3.2 Mass CaO. <span class="marks-nsc">[3]</span><br>3.3 Volume CO₂ at STP. <span class="marks-nsc">[3]</span></li><li>20 g H₂ + 100 g O₂ → 2H₂O<br>4.1 Limiting reagent. <span class="marks-nsc">[4]</span><br>4.2 Mass H₂O. <span class="marks-nsc">[2]</span><br>4.3 Excess remaining. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">4Fe + 3O₂ → 2Fe₂O₃</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">100 g·mol⁻¹</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> <span class="answer">0.05 mol</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">2.8 g</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.3</strong> <span class="answer">1.12 dm³</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>4.1</strong> <span class="answer">O₂ limiting</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>4.2</strong> <span class="answer">112.5 g</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.3</strong> <span class="answer">7.5 g</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- SEPEDI HL -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc sepedi-header">
+                            <div class="subject-icon-nsc sepedi-icon">📚</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Sepedi HL</h3><p style="font-size:12px;color:#888;margin:0;">Thutapolelo, Mopeleto le Dingwalwa</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.1 — Mopeleto le Puo ya Mesomo/Metswako</div>
+                            <p class="activity-desc-nsc">Thwii, puo ya mesomo, puo ya metswako (Adapted: DBE Common 2020, 2021)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>POTšiŠO 1: MOPELETO</h4><ol><li>Tokiša phošo ya thwii: <em>"Bana ba bangata <u>o</u> a bolela."</em> <span class="marks-nsc">[1]</span></li><li>Ngwala ka puo ya metswako: <em>"Mosadi o a sepela."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta: <em>"A re ye kua!"</em> <span class="marks-nsc">[1]</span></li><li>Tlatša: <em>"Batho ba ___ (tseba) taba ye."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša: <em>"Ke tla <u>tla</u> gosasa."</em> <span class="marks-nsc">[1]</span></li><li>Ngwala ka puo ya go se bolewe: <em>"Motho o a bolela."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta: <em>"Ngwana o a bolela."</em> <span class="marks-nsc">[1]</span></li><li>Tlatša: <em>"Puku ye ke ya ___ (nna)."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša: <em>"Dipuku tše di <u>o</u> bohlokwa."</em> <span class="marks-nsc">[1]</span></li><li>Ngwala ka puo ya mesomo: <em>"Mosetsana o a opela."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta: <em>"Batho ba a thaba."</em> <span class="marks-nsc">[1]</span></li><li>Tlatša: <em>"Bjale ke a ___ (tseba) gore o tla tla."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša: <em>"Ke rata go <u>bona</u> puku."</em> <span class="marks-nsc">[1]</span></li><li>Ngwala ka puo ya go se bolewe: <em>"Batho ba a sepela."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta: <em>"A re ye kua!"</em> <span class="marks-nsc">[1]</span></li><li>Tlatša: <em>"Batho ba ___ (tseba) taba ye."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša: <em>"Sehlopha sa barutwana <u>ba</u> ya gae."</em> <span class="marks-nsc">[1]</span></li><li>Ngwala ka puo ya metswako: <em>"Mosadi o a bolela."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta: <em>"Ngwana o a bolela."</em> <span class="marks-nsc">[1]</span></li><li>Tlatša: <em>"Puku ye ke ya ___ (nna)."</em> <span class="marks-nsc">[1]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">"Bana ba bangata <u>ba</u> a bolela."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">"Go bolelwa gore mosadi o a sepela."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Taelo / Imperative</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">tseba</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">"Ke tla <u>fihla</u> gosasa."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">"Go bolelwa gore motho o a bolela."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Tšhupetšo / Personification</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">ka</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">"Dipuku tše di <u>le</u> bohlokwa."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">"Mosetsana o a opela ka lentšu le le bolelago."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">Tšhupetšo / Personification</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>12.</strong> <span class="answer">tseba</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>13.</strong> <span class="answer">"Ke rata go <u>bala</u> puku."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>14.</strong> <span class="answer">"Go bolelwa gore batho ba a sepela."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>15.</strong> <span class="answer">Taelo / Imperative</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>16.</strong> <span class="answer">tseba</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>17.</strong> <span class="answer">"Sehlopha sa barutwana <u>se</u> ya gae."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>18.</strong> <span class="answer">"Go bolelwa gore mosadi o a bolela."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>19.</strong> <span class="answer">Tšhupetšo / Personification</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>20.</strong> <span class="answer">ka</span> <span class="allocation">[1]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.2 — Thutapolelo le Ponagalo</div>
+                            <p class="activity-desc-nsc">Sengwalwa sa go sa bolelwa, ponagalo, kgopolo ya ka gare (Adapted: DBE Common 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>POTšiŠO 2: PONAGALO</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid #7b1fa2;color:#555;font-size:13px;"><strong>Ponagalo:</strong> Setšo se se bontšhago motho yo mogolo a bego a šoma ka maatla tšhuping, a sa hwetše motho yo a ka mo thušago. Bana ba be ba eme kgauswi, ba lebeletše ka mahlong a a tšhabago.</p><ol><li>Tšweletša dintlha TŠE PEDI tše di bontšhago gore motho yo mogolo o be a šoma ka maatla. <span class="marks-nsc">[2]</span></li><li>"Bana ba be ba eme kgauswi" — ke eng maikemisetso a mongwadi? <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[3]</span></li><li>Ngwala sehlabelo. <span class="marks-nsc">[2]</span></li></ol></div><div class="question-block-nsc"><h4>POTšiŠO 3: SENGWALWA</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid #7b1fa2;font-style:italic;color:#555;font-size:13px;line-height:1.7;">Setšhaba sa gabo re se tsebe gore se tla ya kae. Batho ba a hloka go ba le maemo a go phela. Bokgoshi bjo bontšhago botho bo a bohlokwa kudu. Ge motho a na le botho, o tla thuša batho bao ba hlokago thušo. Botho bjo bo ka bontšhwa ka tsela yeo motho a hlomphago batho ka yona, le ka tsela yeo a abelago batho ka yona.</p><ol start="5"><li>Tšweletša molaetša. <span class="marks-nsc">[2]</span></li><li>"Setšhaba sa gabo re se tsebe gore se tla ya kae" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša dintlha TŠE THARO tše di bontšhago botho. <span class="marks-nsc">[3]</span></li><li>Na botho bo a bohlokwa? Hlaloša. <span class="marks-nsc">[3]</span></li><li>Tšweletša mohola wa go bolela. <span class="marks-nsc">[2]</span></li><li>Ngwala ka puo ya mesomo: <em>"Batho ba a thaba."</em> <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">O be a šoma ka maatla; a sa hwetše motho yo a ka mo thušago.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Go laetša gore bana ba be ba lebeletše; go bontšha bothata.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Bothata bja go hloka motho wa go thuša; bothata bja go šoma ka maatla.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">"Bothata bja go hloka motho wa go thuša" / "Go šoma ka maatla"</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Bokgoshi bjo bontšhago botho le toka bo a bohlokwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Go laetša gore setšhaba sa gabo se sa tsebe gore se tla ya kae; go tšweletša bothata.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Go hlompha batho; go abela batho; go thuša batho bao ba hlokago thušo.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">Ee, botho bo a bohlokwa.</span> Bo thuša batho go phela ka kgotso; bo bontšha botho. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">Go ruta batho gore botho bjo bontšhago botho le toka bo a bohlokwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">"Batho ba a thabiša ka lebaka la botho."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">Botho bja gago bo ka thuša batho go phela ka kgotso; bo ka bontšhwa ka go hlompha batho.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">40 min</span>
+                                <span class="meta-tag-nsc meta-marks">30 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.3 — Setsopolwa: "Modjadji"</div>
+                            <p class="activity-desc-nsc">Diteng, morero, sebopego, le tekolo (Adapted: DBE Common 2020, 2021)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>BA LA SERETO SE GOMME O ARABE POTšiŠO.</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid #7b1fa2;line-height:1.7;color:#555;font-size:13px;font-style:italic;">"Modjadji (Kgošigadi ya go neša pula)"<br><br>Re Balobedu, re boologa bohlabatšatsi bja Zimbabwe,<br>Re ditlogolo tša Kgošikgolo Dzugudini<br>SebušaBakaranga banešapula tša mokhora,<br>Ba rego ge e duma e a tšhologana, ...<br>Re tla ja maraka le dinyoba,<br>Ditlogolokhukhukhukhu tša Kgošikgolo Monomotapa,<br>Baagibagolo ba leboto monepenepeswika la marope a Zimbabwe.<br>Re šikatee le Bavenda le Baphalaborwa ba Malatji<br>Moo ba rego tshogana tlogelang go hubakela Borwa,<br>Ka ge mo go phala Borwa ebile go lla noto,<br>Re hlompšha le ke Mazulu, tlogolwana tša Kgoši Tšhaka …</p></div><div class="question-block-nsc"><h4>POTšiŠO</h4><ol><li>Tšweletša dintlha TŠE PEDI tše di bontšhago gore bardi ba tseba histori ya bona. <span class="marks-nsc">[2]</span></li><li>"SebušaBakaranga banešapula tša mokhora" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša mohuta wa puo woo o šomišitšwego. <span class="marks-nsc">[2]</span></li><li>"Re tla ja maraka le dinyoba" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[3]</span></li><li>Na sereto se se a bohlokwa? Hlaloša. <span class="marks-nsc">[3]</span></li><li>Tšweletša moya wa sereto se. <span class="marks-nsc">[2]</span></li><li>Ngwala ka puo ya go se bolewe: <em>"Re Balobedu."</em> <span class="marks-nsc">[2]</span></li><li>Tšweletša mohola wa go bolela. <span class="marks-nsc">[2]</span></li><li>Tšweletša dintlha TŠE THARO tše di bontšhago gore bardi ba hlompha histori ya bona. <span class="marks-nsc">[3]</span></li><li>"Re šikatee le Bavenda" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša sehlabelo. <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[3]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Ba tseba gore ke ditlogolo tša Kgošikgolo Dzugudini; ba tseba histori ya Kgošikgolo Monomotapa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Go laetša gore bardi ba tseba histori ya bona; go bontšha bokgoni bja go neša pula.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Tshupetšo / Personification — pula e filwe maikemisetso a motho.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Go laetša gore bardi ba tseba dithoko tša bona; go bontšha bokgoni bja go phela.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Histori ya bokgoshi le botho ya a bohlokwa; e tla re ruta go hlompha histori ya rena.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Ee, se a bohlokwa.</span> Se gopola histori ya bokgoshi; se ruta batho go hlompha histori ya bona. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Go hlompha / Go tlotlwa / Go tseba histori.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">"Go bolelwa gore re Balobedu."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">Go gopola histori ya bokgoshi le go bontšha gore histori ya bona e a bohlokwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">Ba tseba gore ke ditlogolo tša Kgošikgolo Dzugudini; ba tseba histori ya Kgošikgolo Monomotapa; ba hlompha histori ya bona.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">Go laetša gore bardi ba tseba batho ba tikologo ya bona; go bontšha botho.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>12.</strong> <span class="answer">"Histori ya bokgoshi le botho" / "Go hlompha histori ya bokgoshi"</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>13.</strong> <span class="answer">Histori ya gago e a bohlokwa; e ka thuša batho go tseba gore ba tloga kae.</span> <span class="allocation">[3]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- GRADE 12 -->
+            <div id="g12" class="grade-panel-nsc">
+                <div class="subjects-grid-nsc">
+                    <!-- ENGLISH FAL -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc">
+                            <div class="subject-icon-nsc">📖</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">English FAL</h3><p style="font-size:12px;color:#888;margin:0;">Language, Comprehension & Literature</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.1 — Language: Editing & Ambiguity</div>
+                            <p class="activity-desc-nsc">Editing, concord, ambiguity, and language varieties (Adapted: DBE NSC 2019, 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1: EDITING</h4><p style="font-size:13px;color:#555;margin-bottom:8px;">Correct the paragraph. There are <strong>ten</strong> errors.</p><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid var(--deep-blue);color:#555;font-style:italic;line-height:1.8;font-size:13px;">The data regarding the affect of social media on teenangers are alarming. Neither the parents nor the teacher recognise the extent of the problem. The principle of the school have implemented a policy, but it's effect is minimal. Students' whom spend more than three hours online daily shows signs of anxiety. Between you and I, this situation require urgent attention.</p><p style="margin-top:6px;"><span class="marks-nsc">[10]</span></p></div><div class="question-block-nsc"><h4>QUESTION 2: AMBIGUITY</h4><ol start="2"><li>Explain the ambiguity in: <em>"Visiting relatives can be annoying."</em> Provide two meanings. <span class="marks-nsc">[2]</span></li><li>Rewrite to remove ambiguity for each meaning. <span class="marks-nsc">[2]</span></li><li>Explain the difference between <em>"prescribe"</em> and <em>"proscribe."</em> Use each in a sentence. <span class="marks-nsc">[4]</span></li><li>Discuss how code-switching can be both beneficial and detrimental. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">1. "affect"→"effect" 2. "teenangers"→"teenagers" 3. "are"→"is" 4. "recognise"→"recognises" 5. "teacher"→"teachers" 6. "principle"→"principal" 7. "have"→"has" 8. "it's"→"its" 9. "whom"→"who" 10. "shows"→"show" 11. "Between you and I"→"Between you and me" 12. "require"→"requires"</span> <span class="allocation">[10: any 10]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> Meaning 1: <span class="answer">The act of visiting relatives is annoying.</span> Meaning 2: <span class="answer">Relatives who are visiting are annoying.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">"It is annoying to visit relatives." / "Relatives who visit us can be annoying."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Prescribe = to recommend/order. Proscribe = to forbid/condemn.</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Beneficial: aids comprehension, validates home language. Detrimental: hinders English acquisition, creates dependency.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.2 — Comprehension: Argument & Bias</div>
+                            <p class="activity-desc-nsc">Unseen passage with argument analysis, bias detection, and evaluation (Adapted: DBE NSC 2020, 2022, 2023)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>READ THE PASSAGE AND ANSWER THE QUESTIONS.</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid var(--deep-blue);font-style:italic;color:#555;font-size:13px;line-height:1.8;">The push to make mathematics compulsory for all university entrants is well-intentioned but fundamentally misguided. Proponents argue that numeracy is essential for citizenship in a data-driven world. Yet this ignores a crucial reality: forcing students who lack mathematical aptitude into advanced courses creates nothing but anxiety and failure. The Finnish model, often cited by advocates, succeeds not because of compulsion, but because of highly trained teachers and smaller classes. South Africa's education system has neither. Before we mandate mathematics, we must mandate quality teaching. Otherwise, we are not raising standards — we are raising barriers.</p><ol><li>Identify the writer's thesis statement. <span class="marks-nsc">[2]</span></li><li>State <strong>two</strong> arguments used by proponents. <span class="marks-nsc">[2]</span></li><li>Explain the logical flaw the writer identifies. <span class="marks-nsc">[3]</span></li><li>How does the writer use the Finnish example? <span class="marks-nsc">[3]</span></li><li>Identify the rhetorical device in "raising standards — raising barriers" and explain its effect. <span class="marks-nsc">[3]</span></li><li>Evaluate the validity of the writer's argument. Substantiate. <span class="marks-nsc">[4]</span></li><li>Identify a potential bias and explain how it weakens the argument. <span class="marks-nsc">[3]</span></li><li>Explain "mandate" as used. <span class="marks-nsc">[2]</span></li><li>Suggest a counter-argument the writer does not address. <span class="marks-nsc">[3]</span></li><li>Discuss the tone of the final sentence. <span class="marks-nsc">[3]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">"The push to make mathematics compulsory... is well-intentioned but fundamentally misguided."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Numeracy is essential for citizenship; we live in a data-driven world.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Proponents ignore context.</span> Compulsion without quality teaching leads to failure. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Uses Finland as counter-example.</span> Success comes from teaching quality, not compulsion. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Antithesis / paradox.</span> Memorable contrast; suggests opposite effect. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Partially valid.</span> Quality teaching is essential, but writer assumes aptitude is fixed. <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Assumes SA cannot improve teaching quality.</span> Pessimistic; false dichotomy. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">To make compulsory; to require by law.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">Mathematics develops critical thinking for all fields.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">Defiant / cautionary / authoritative.</span> Parallel structure delivers final blow. <span class="allocation">[3]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">60 min</span>
+                                <span class="meta-tag-nsc meta-marks">40 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 1.3 — Essay: Narrative / Descriptive</div>
+                            <p class="activity-desc-nsc">NSC essay with full rubric and model introduction (Adapted: DBE NSC 2019, 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>ESSAY TOPICS (Choose ONE)</h4><ol><li><strong>The moment I realised I had become an adult.</strong> <span class="marks-nsc">[40]</span></li><li><strong>Write a story ending with:</strong> <em>"...and in that silence, I finally understood."</em> <span class="marks-nsc">[40]</span></li><li><strong>Describe the impact of a natural disaster on a community you know.</strong> <span class="marks-nsc">[40]</span></li></ol><h4 style="margin-top:16px;font-family:Poppins,sans-serif;font-size:14px;font-weight:600;color:var(--deep-blue);">RUBRIC</h4><table style="width:100%;border-collapse:collapse;margin-top:8px;font-size:12px;color:#555;"><tr style="border-bottom:1px solid #eee;"><td style="padding:6px;font-weight:600;">Content & Planning</td><td style="padding:6px;">[12]</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:6px;font-weight:600;">Language, Style & Editing</td><td style="padding:6px;">[12]</td></tr><tr style="border-bottom:1px solid #eee;"><td style="padding:6px;font-weight:600;">Structure & Organisation</td><td style="padding:6px;">[10]</td></tr><tr><td style="padding:6px;font-weight:600;">Length (400–450 words)</td><td style="padding:6px;">[6]</td></tr><tr style="border-top:2px solid #eee;"><td style="padding:6px;font-weight:700;">TOTAL</td><td style="padding:6px;font-weight:700;">[40]</td></tr></table></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p style="font-style:italic;color:#888;margin-bottom:8px;">[Model introduction — assess using rubric]</p><p class="answer">Adulthood does not announce itself with a birthday cake or a driver's licence. It arrives silently, disguised as responsibility. For me, it came at 3:00 AM on a Tuesday, in the fluorescent glare of a hospital corridor, when a nurse handed me a clipboard and asked me to sign consent forms for my mother's emergency surgery. My father was overseas. My older brother was unreachable. The pen felt heavier than any textbook I had ever carried. In that moment, childhood did not fade — it evaporated.</p><p class="allocation">[40 marks — assess using rubric]</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- MATHEMATICS -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc" style="background:linear-gradient(135deg,var(--light-green),transparent);">
+                            <div class="subject-icon-nsc" style="background:var(--light-green);">📐</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Mathematics</h3><p style="font-size:12px;color:#888;margin:0;">Calculus, Probability & Geometry</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.1 — Differential Calculus</div>
+                            <p class="activity-desc-nsc">Limits, differentiation from first principles, and applications (Adapted: DBE NSC 2019, 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1</h4><ol><li>Determine f'(x) from first principles if f(x) = 2x² - 3x. <span class="marks-nsc">[5]</span></li><li>Determine:<br>2.1 f'(x) if f(x) = 3x⁴ - 2x³ + 5x - 7 <span class="marks-nsc">[3]</span><br>2.2 dy/dx if y = (2x³ - 1) / x² <span class="marks-nsc">[4]</span><br>2.3 g'(x) if g(x) = √(x³) + 1/x² <span class="marks-nsc">[4]</span></li><li>Given f(x) = -x³ + 6x² - 9x + 2<br>3.1 Find the coordinates of the turning points. <span class="marks-nsc">[5]</span><br>3.2 Determine the nature of each turning point. <span class="marks-nsc">[3]</span><br>3.3 Find the x-coordinate of the point of inflection. <span class="marks-nsc">[2]</span><br>3.4 Sketch the curve. <span class="marks-nsc">[4]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> f'(x) = lim[h→0] [...] = <span class="answer">4x - 3</span> <span class="allocation">[5]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> <span class="answer">12x³ - 6x² + 5</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> y = 2x - x⁻² → <span class="answer">dy/dx = 2 + 2x⁻³</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>2.3</strong> g(x) = x<sup>3/2</sup> + x⁻² → <span class="answer">g'(x) = (3/2)x<sup>½</sup> - 2x⁻³</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> f'(x) = -3x² + 12x - 9 = 0 → x = 1 or 3. <span class="answer">(1; -2) and (3; 2)</span> <span class="allocation">[5]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> f''(x) = -6x + 12. f''(1) = 6 > 0 → <span class="answer">min at (1; -2)</span>. f''(3) = -6 < 0 → <span class="answer">max at (3; 2)</span>. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.3</strong> f''(x) = 0 → <span class="answer">x = 2</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.4</strong> y-int: (0; 2). Shape: cubic with max at 3, min at 1. <span class="allocation">[4]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.2 — Probability & Counting</div>
+                            <p class="activity-desc-nsc">Venn diagrams, tree diagrams, and probability rules (Adapted: DBE NSC 2020, 2021, 2023)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 2</h4><ol><li>Survey of 200 learners: 120 study Maths (M), 90 study Physics (P), 50 study both.<br>1.1 Draw a Venn diagram. <span class="marks-nsc">[3]</span><br>1.2 P(neither). <span class="marks-nsc">[3]</span><br>1.3 P(M only). <span class="marks-nsc">[2]</span><br>1.4 Are M and P independent? Show working. <span class="marks-nsc">[4]</span></li><li>Bag: 5 red, 4 blue, 3 green. Two drawn without replacement.<br>2.1 Tree diagram. <span class="marks-nsc">[3]</span><br>2.2 P(both same colour). <span class="marks-nsc">[4]</span><br>2.3 P(at least one red). <span class="marks-nsc">[3]</span></li><li>How many 4-digit PINs with no repeated digits? <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.1</strong> Only M = 70, Only P = 40, Both = 50, Neither = 40. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>1.2</strong> <span class="answer">0.2</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>1.3</strong> <span class="answer">0.35</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>1.4</strong> P(M)×P(P) = 0.27 ≠ 0.25. <span class="answer">Not independent.</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> Tree with first branch R(5/12), B(4/12), G(3/12). <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> <span class="answer">19/66</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>2.3</strong> <span class="answer">15/22</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">5040</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 2.3 — Euclidean Geometry: Circles</div>
+                            <p class="activity-desc-nsc">Cyclic quadrilaterals, tangents, and angle chasing (Adapted: DBE NSC 2019, 2021, 2023)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 3</h4><p style="font-size:13px;color:#555;margin-bottom:8px;">O is the centre. AB is a diameter. C and D are on the circle. Chord CD intersects AB at E. ∠CAB = 35° and ∠CEB = 70°.</p><ol><li>Calculate ∠ACB. Give a reason. <span class="marks-nsc">[2]</span></li><li>Calculate ∠CBA. <span class="marks-nsc">[2]</span></li><li>Calculate ∠COB. Give a reason. <span class="marks-nsc">[2]</span></li><li>Calculate ∠CDB. Give a reason. <span class="marks-nsc">[2]</span></li><li>Prove that ΔCEB ||| ΔAED. <span class="marks-nsc">[4]</span></li><li>If CE = 4 cm, EB = 6 cm, and AE = 8 cm, calculate ED. <span class="marks-nsc">[3]</span></li><li>Prove BC is tangent to circle CED if ∠BCD = ∠CED. <span class="marks-nsc">[3]</span></li><li>State the converse of: "The angle subtended by a diameter is 90°." <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">90°</span>. Angle in a semicircle. <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">55°</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">110°</span>. Angle at centre = 2 × angle at circumference. <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">55°</span>. Angles in same segment. <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> ∠CEB = ∠AED (vert opp). ∠ECB = ∠EAD (same segment). <span class="answer">∴ ΔCEB ||| ΔAED (AAA)</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> CE/EA = EB/ED → 4/8 = 6/ED → <span class="answer">ED = 12 cm</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> If ∠BCD = ∠CED, by converse of tangent-chord theorem, BC is tangent at C. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">If an angle subtended by a chord at a point on the circle is 90°, then the chord is a diameter.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- PHYSICAL SCIENCES -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc" style="background:linear-gradient(135deg,var(--light-gold),transparent);">
+                            <div class="subject-icon-nsc" style="background:var(--light-gold);">⚛️</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Physical Sciences</h3><p style="font-size:12px;color:#888;margin:0;">Momentum, Electromagnetism & Organic Chemistry</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.1 — Momentum & Impulse</div>
+                            <p class="activity-desc-nsc">Conservation of momentum, elastic/inelastic collisions, and impulse (Adapted: DBE NSC 2019, 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 1</h4><ol><li>Define impulse. <span class="marks-nsc">[2]</span></li><li>State the principle of conservation of linear momentum. <span class="marks-nsc">[2]</span></li><li>A 2 kg trolley at 3 m·s⁻¹ collides with a stationary 4 kg trolley. After, the 2 kg trolley moves at 1 m·s⁻¹ opposite direction.<br>3.1 Calculate the velocity of the 4 kg trolley. <span class="marks-nsc">[4]</span><br>3.2 Determine if elastic or inelastic. Show working. <span class="marks-nsc">[4]</span><br>3.3 Calculate the magnitude of impulse on the 2 kg trolley. <span class="marks-nsc">[3]</span></li><li>A 0.05 kg bullet is fired from a 2 kg rifle at 400 m·s⁻¹.<br>4.1 Calculate the recoil velocity. <span class="marks-nsc">[3]</span><br>4.2 Why does the bullet have much greater kinetic energy than the rifle? <span class="marks-nsc">[2]</span></li><li>A 0.2 kg ball strikes a wall at 5 m·s⁻¹ and rebounds at 3 m·s⁻¹. Contact time 0.02 s. Calculate average force. <span class="marks-nsc">[3]</span></li><li>Explain why airbags reduce injury. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Product of net force and time for which it acts. OR Change in momentum.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Total linear momentum of an isolated system remains constant.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> (2)(3) + 0 = (2)(-1) + 4v₂ → v₂ = <span class="answer">2 m·s⁻¹</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> E<sub>k before</sub> = 9 J. E<sub>k after</sub> = 9 J. <span class="answer">Elastic.</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>3.3</strong> FΔt = mΔv = 2(-1-3) = <span class="answer">-8 N·s</span> (mag 8 N·s) <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>4.1</strong> 0 = (0.05)(400) + 2v<sub>r</sub> → v<sub>r</sub> = <span class="answer">-10 m·s⁻¹</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>4.2</strong> <span class="answer">E<sub>k</sub> = p²/2m.</span> Same p, smaller m → larger E<sub>k</sub>. <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> F = mΔv/Δt = 0.2(-3-5)/0.02 = <span class="answer">-80 N</span> (mag 80 N) <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Increases stopping time, decreasing force (F = Δp/Δt).</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">30 min</span>
+                                <span class="meta-tag-nsc meta-marks">20 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.2 — Electromagnetism</div>
+                            <p class="activity-desc-nsc">Faraday's Law, transformers, and AC circuits (Adapted: DBE NSC 2020, 2021, 2023)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 2</h4><ol><li>State Faraday's Law in words. <span class="marks-nsc">[2]</span></li><li>A coil of 200 turns and area 0.05 m² perpendicular to a field changing from 0.2 T to 0.8 T in 0.5 s.<br>2.1 Calculate change in magnetic flux. <span class="marks-nsc">[3]</span><br>2.2 Calculate induced emf. <span class="marks-nsc">[3]</span><br>2.3 State Lenz's Law and explain direction. <span class="marks-nsc">[3]</span></li><li>A transformer has 800 primary turns and 40 secondary turns. Primary voltage 240 V.<br>3.1 Calculate secondary voltage. <span class="marks-nsc">[3]</span><br>3.2 Step-up or step-down? <span class="marks-nsc">[1]</span><br>3.3 Why do transformers only work with AC? <span class="marks-nsc">[2]</span></li><li>An AC circuit has peak voltage 311 V. Calculate RMS voltage. <span class="marks-nsc">[2]</span></li><li>Explain the energy advantage of high-voltage transmission. <span class="marks-nsc">[1]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">The magnitude of the induced emf is directly proportional to the rate of change of magnetic flux linkage.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> ΔΦ = A·ΔB = 0.05(0.6) = <span class="answer">0.03 Wb</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> ε = -NΔΦ/Δt = -(200)(0.03)/0.5 = <span class="answer">-12 V</span> (mag 12 V) <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>2.3</strong> <span class="answer">The induced current flows in a direction that opposes the change producing it.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> V<sub>s</sub> = 240 × 40/800 = <span class="answer">12 V</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">Step-down</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>3.3</strong> <span class="answer">Transformers require changing magnetic flux. DC produces constant flux.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> V<sub>rms</sub> = 311/√2 = <span class="answer">220 V</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">P<sub>loss</sub> = I²R. High voltage means low current, reducing heat loss.</span> <span class="allocation">[1]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 3.3 — Organic Chemistry</div>
+                            <p class="activity-desc-nsc">Nomenclature, reactions, polymers, and isomers (Adapted: DBE NSC 2019, 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>QUESTION 3</h4><ol><li>Write the IUPAC name for:<br>1.1 CH₃CH₂CH(CH₃)CH₂CH₃ <span class="marks-nsc">[2]</span><br>1.2 CH₃CH=CHCH₃ <span class="marks-nsc">[2]</span><br>1.3 CH₃COCH₂CH₃ <span class="marks-nsc">[2]</span></li><li>Write the structural formula for:<br>2.1 2-methylpropan-1-ol <span class="marks-nsc">[2]</span><br>2.2 butanoic acid <span class="marks-nsc">[2]</span></li><li>Consider: C₂H₄ + H₂O → C₂H₅OH<br>3.1 Name the type of reaction. <span class="marks-nsc">[1]</span><br>3.2 State the conditions. <span class="marks-nsc">[2]</span><br>3.3 Name the catalyst. <span class="marks-nsc">[1]</span></li><li>Combustion of propane: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O<br>4.1 Exothermic or endothermic? <span class="marks-nsc">[1]</span><br>4.2 Calculate mass of CO₂ from 44 g propane. <span class="marks-nsc">[4]</span></li><li>Explain the difference between addition and condensation polymerisation. Give one example of each. <span class="marks-nsc">[4]</span></li><li>Draw the structural isomers of C₄H₁₀. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.1</strong> <span class="answer">3-methylpentane</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>1.2</strong> <span class="answer">but-2-ene</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>1.3</strong> <span class="answer">butan-2-one</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.1</strong> CH₃CH(CH₃)CH₂OH <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.2</strong> CH₃CH₂CH₂COOH <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.1</strong> <span class="answer">Addition / hydration</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>3.2</strong> <span class="answer">High temperature (300°C) and high pressure.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.3</strong> <span class="answer">Phosphoric acid (H₃PO₄)</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>4.1</strong> <span class="answer">Exothermic</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>4.2</strong> n(C₃H₈) = 1 mol. n(CO₂) = 3 mol. m = 3 × 44 = <span class="answer">132 g</span> <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Addition:</span> monomers add without loss (e.g. polyethene). <span class="answer">Condensation:</span> monomers join with loss of small molecules (e.g. nylon). <span class="allocation">[4]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> Butane and 2-methylpropane. <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- SEPEDI HL -->
+                    <div class="subject-card-nsc">
+                        <div class="subject-header-nsc sepedi-header">
+                            <div class="subject-icon-nsc sepedi-icon">📚</div>
+                            <div><h3 style="font-family:Poppins,sans-serif;font-size:16px;font-weight:700;color:var(--deep-blue);margin:0;">Sepedi HL</h3><p style="font-size:12px;color:#888;margin:0;">Thutapolelo, Mopeleto le Dingwalwa</p></div>
+                        </div>
+                        <div class="activity-list-nsc">
+<div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">35 min</span>
+                                <span class="meta-tag-nsc meta-marks">25 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L1–L3</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.1 — Mopeleto: Tokišo le Puo ya Mesomo/Metswako</div>
+                            <p class="activity-desc-nsc">Tokišo, thwii, puo ya mesomo, puo ya metswako (Adapted: DBE NSC 2019, 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>POTšiŠO 1: TOKIŠO</h4><p style="font-size:13px;color:#555;margin-bottom:8px;">Tokiša sengwalwa se. Go na le <strong>di phošo</strong> tše 10.</p><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid #7b1fa2;color:#555;font-style:italic;line-height:1.8;font-size:13px;">Tsebo mabapi le tšhupo ya puku ya gago e a bohlokwa. Batho ba bangata ba sa tsebe gore puku e ka ba thuša ka tsela yeo ba sa e lego gore e ka ba thuša ka yona. Ge o bala puku, o a ithuta. Bana ba bangata ba sa rate go bala puku ka lebaka la gore ba nagana gore go a bora. Le ge go le bjalo, puku e ka ba thuša go tseba dilo tše mmalwa tše di bohlokwa ka bophelo.</p><p style="margin-top:6px;"><span class="marks-nsc">[10]</span></p></div><div class="question-block-nsc"><h4>POTšiŠO 2: PUO YA MESOMO LE METSWAKO</h4><ol start="2"><li>Ngwala ka puo ya mesomo: <em>"Mosadi o a sepela."</em> <span class="marks-nsc">[2]</span></li><li>Ngwala ka puo ya metswako: <em>"Motho o a bolela."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta: <em>"A re ye kua!"</em> <span class="marks-nsc">[1]</span></li><li>Tlatša: <em>"Batho ba ___ (tseba) taba ye."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša: <em>"Sehlopha sa barutwana <u>ba</u> ya gae."</em> <span class="marks-nsc">[1]</span></li><li>Ngwala ka puo ya go se bolewe: <em>"Batho ba a thaba."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta: <em>"Ngwana o a bolela."</em> <span class="marks-nsc">[1]</span></li><li>Tlatša: <em>"Puku ye ke ya ___ (nna)."</em> <span class="marks-nsc">[1]</span></li><li>Tokiša: <em>"Ke tla <u>tla</u> gosasa."</em> <span class="marks-nsc">[1]</span></li><li>Ngwala ka puo ya mesomo: <em>"Mosetsana o a opela."</em> <span class="marks-nsc">[2]</span></li><li>Hwetša mohuta: <em>"Batho ba a sepela."</em> <span class="marks-nsc">[1]</span></li><li>Tlatša: <em>"Bjale ke a ___ (tseba) gore o tla tla."</em> <span class="marks-nsc">[1]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">1. "Tsebo"→"Tsebo ya" 2. "ba sa tsebe"→"ba sa tsebe" (thwii) 3. "e ka ba thuša"→"e ka ba thuša" (tlhaka) 4. "o a ithuta"→"o ithuta" (thwii) 5. "ba sa rate"→"ba sa rate" (tlhaka) 6. "go a bora"→"go bora" (thwii) 7. "Le ge go le bjalo"→"Le ge go le bjalo" (tlhaka) 8. "e ka ba thuša"→"e ka ba thuša" (tlhaka) 9. "go tseba"→"go tseba" (tlhaka) 10. "tše di bohlokwa"→"tše bohlokwa" (thwii)</span> <span class="allocation">[10: any 10]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">"Mosadi o a sepela ka lebelo."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">"Go bolelwa gore motho o a bolela."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Taelo / Imperative</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">tseba</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">"Sehlopha sa barutwana <u>se</u> ya gae."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">"Go bolelwa gore batho ba a thabiša."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">Tšhupetšo / Personification</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">ka</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">"Ke tla <u>fihla</u> gosasa."</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">"Mosetsana o a opela ka lentšu le le bolelago."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>12.</strong> <span class="answer">Tšhupetšo / Personification</span> <span class="allocation">[1]</span></p></div><div class="memo-item-nsc"><p><strong>13.</strong> <span class="answer">tseba</span> <span class="allocation">[1]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-home">Home</span>
+                                <span class="meta-tag-nsc meta-time">40 min</span>
+                                <span class="meta-tag-nsc meta-marks">30 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.2 — Thutapolelo: Kgopolo ya Ka Gare le Tekolo</div>
+                            <p class="activity-desc-nsc">Sengwalwa sa go sa bolelwa sa tekolo, kgopolo ya ka gare (Adapted: DBE NSC 2020, 2022, 2023)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>BA LA SENGWALWA SE SE LATELAGO GOMME O ARABE POTšiŠO.</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid #7b1fa2;font-style:italic;color:#555;font-size:13px;line-height:1.7;">Bokgoshi bjo bontšhago botho le toka bo a bohlokwa kudu setšhabeng. Ge motho a na le botho, o tla thuša batho bao ba hlokago thušo. Botho bjo bo ka bontšhwa ka tsela yeo motho a hlomphago batho ka yona, le ka tsela yeo a abelago batho ka yona. Setšhaba sa gabo re se tsebe gore se tla ya kae ge batho ba hloka botho. Ka lebaka leo, re swanetše go ruta bana botho bjo bontšhago botho le toka go tloga bjale.</p></div><div class="question-block-nsc"><ol><li>Tšweletša molaetša. <span class="marks-nsc">[2]</span></li><li>"Setšhaba sa gabo re se tsebe gore se tla ya kae" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša dintlha TŠE THARO tše di bontšhago botho. <span class="marks-nsc">[3]</span></li><li>Na botho bo a bohlokwa? Hlaloša. <span class="marks-nsc">[3]</span></li><li>Tšweletša mohola wa go bolela. <span class="marks-nsc">[2]</span></li><li>Ngwala ka puo ya mesomo: <em>"Batho ba a thaba."</em> <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[2]</span></li><li>"Bokgoshi bjo bontšhago botho le toka" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša dintlha TŠE PEDI tše di bontšhago gore botho bo ka thuša setšhaba. <span class="marks-nsc">[2]</span></li><li>Ngwala ka puo ya go se bolewe: <em>"Batho ba a sepela."</em> <span class="marks-nsc">[2]</span></li><li>Tšweletša mohola wa go bolela. <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[3]</span></li><li>"Ge motho a na le botho, o tla thuša batho" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša dintlha TŠE PEDI tše di bontšhago gore botho bo a bohlokwa. <span class="marks-nsc">[2]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">Bokgoshi bjo bontšhago botho le toka bo a bohlokwa setšhabeng.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Go laetša gore setšhaba sa gabo se sa tsebe gore se tla ya kae; go tšweletša bothata.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Go hlompha batho; go abela batho; go thuša batho bao ba hlokago thušo.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Ee, botho bo a bohlokwa.</span> Bo thuša batho go phela ka kgotso; bo bontšha botho. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Go ruta batho gore botho bjo bontšhago botho le toka bo a bohlokwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">"Batho ba a thabiša ka lebaka la botho."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Botho bja gago bo ka thuša batho go phela ka kgotso; bo ka bontšhwa ka go hlompha batho.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">Go laetša gore bokgoshi bjo bontšhago botho le toka bo a bohlokwa; go tšweletša botho.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">Bo thuša batho go phela ka kgotso; bo bontšha botho; bo ruta bana; bo thuša setšhaba.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">"Go bolelwa gore batho ba a sepela."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">Go ruta batho gore botho bjo bontšhago botho le toka bo a bohlokwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>12.</strong> <span class="answer">Go ruta bana botho go tla thuša setšhaba sa bokamoso; go bontšha gore botho bo a bohlokwa.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>13.</strong> <span class="answer">Go laetša gore botho bo thuša batho; go bontšha gore botho bo a bohlokwa.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>14.</strong> <span class="answer">Bo thuša batho go phela ka kgotso; bo bontšha botho; bo ruta bana.</span> <span class="allocation">[2]</span></p></div>
+                                </div>
+                            </div>
+                        </div><div class="activity-item-nsc" onclick="toggleActivityNsc(this)">
+                            <div class="activity-meta-nsc">
+                                <span class="meta-tag-nsc meta-class">Class</span>
+                                <span class="meta-tag-nsc meta-time">60 min</span>
+                                <span class="meta-tag-nsc meta-marks">40 marks</span>
+                                <span class="meta-tag-nsc meta-barrett">L2–L4</span>
+                            </div>
+                            <div class="activity-title-nsc">Activity 4.3 — Dingwalwa: "Mmakgwadi le Lejapela"</div>
+                            <p class="activity-desc-nsc">Diteng, morero, sebopego, le tekolo ya nonwane (Adapted: DBE NSC 2019, 2020, 2022)</p>
+                            <div class="activity-content-nsc">
+                                <div class="question-block-nsc"><h4>BA LA NONWANE YE GOMME O ARABE POTšiŠO.</h4><p style="background:#f9f9f9;padding:12px;border-radius:8px;border-left:3px solid #7b1fa2;line-height:1.7;color:#555;font-size:13px;font-style:italic;">"Mmakgwadi le Lejapela"<br><br>Nonwane, nonwane! Keleketla! Mmakgwadi e be e le mokgekolo yoo a bego a tsebega kudu motseng wa gabo. O be a tsebega ebile a tšhabega ka lebaka la bophelo bjo a bego a bo phela. O be a phela bophelo bja go makatša gomme badudi ba motse wa gabo ba mo tšhaba. Le ge e be e le motho yo mogolo o be a dula a nnoši, eupša a dira mediro yeo e bego e makatša ba bantši. O be a dira mediro ye megolo ka nako e tee, a phala basadi ba kgobokane. Mmakgwadi o be a dula mokutwaneng wa go dirwa ka mahlaka kua molapong wa noka. Badudi ba motse ka moka ba be ba agile tlasetlase moo molapo o felelago gona. Felo fao Mmakgwadi a bego a agile ntshe go be go boifiša ka ge e be e le gare ga sethokgwa mola ka thokong ye nngwe go le kgauswi le phororo ye kgolo ya meetse. Ke phororo ya noka ye kgolo moo e lego gore bokubu le bokwena ba be ba boifa go batamela moo. Mo gare ga sethokgwa go be go lla morapa bošego le mosegare gomme go sa tsebege gore o letšwa ke mang. Go fihla moo morapa o llago go be go boifiša kudu gobane ge motho a batamela moo meriri e be e ema ka maoto, gomme go etla moya wa go fiša ...</p></div><div class="question-block-nsc"><ol><li>Tšweletša dintlha TŠE PEDI tše di bontšhago gore Mmakgwadi o be a tsebega. <span class="marks-nsc">[2]</span></li><li>"O be a phela bophelo bja go makatša" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša mohuta wa puo woo o šomišitšwego. <span class="marks-nsc">[2]</span></li><li>"Badudi ba motse wa gabo ba mo tšhaba" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[3]</span></li><li>Na nonwane ye e a bohlokwa? Hlaloša. <span class="marks-nsc">[3]</span></li><li>Tšweletša moya wa nonwane ye. <span class="marks-nsc">[2]</span></li><li>Ngwala ka puo ya go se bolewe: <em>"Mmakgwadi o be a tsebega."</em> <span class="marks-nsc">[2]</span></li><li>Tšweletša mohola wa go bolela. <span class="marks-nsc">[2]</span></li><li>Tšweletša dintlha TŠE THARO tše di bontšhago gore Mmakgwadi o be a kgona mediro ye megolo. <span class="marks-nsc">[3]</span></li><li>"Mo gare ga sethokgwa go be go lla morapa" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša sehlabelo. <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[3]</span></li><li>"Go fihla moo morapa o llago go be go boifiša kudu" — ke eng maikemisetso? <span class="marks-nsc">[2]</span></li><li>Tšweletša dintlha TŠE PEDI tše di bontšhago gore nonwane ye e ka thuša batho. <span class="marks-nsc">[2]</span></li><li>Ngwala ka puo ya mesomo: <em>"Badudi ba a tšhaba."</em> <span class="marks-nsc">[2]</span></li><li>Tšweletša mohola wa go bolela. <span class="marks-nsc">[2]</span></li><li>Tšweletša ponelopele ya gago. <span class="marks-nsc">[3]</span></li></ol></div>
+                                <button class="memo-toggle-nsc" onclick="event.stopPropagation(); toggleMemoNsc(this)">Show Memorandum</button>
+                                <div class="memo-nsc">
+                                    <h4>✓ Memorandum</h4>
+                                    <div class="memo-item-nsc"><p><strong>1.</strong> <span class="answer">O be a tsebega kudu motseng wa gabo; o be a tšhabega ka lebaka la bophelo bjo a bego a bo phela.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>2.</strong> <span class="answer">Go laetša gore Mmakgwadi o be a phela bophelo bjo bo makatšago; go bontšha gore o be a sa phela bjalo ka batho ba bangwe.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>3.</strong> <span class="answer">Tshupetšo / Personification — morapa o filwe maikemisetso a motho.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>4.</strong> <span class="answer">Go laetša gore badudi ba be ba mo tšhaba; go bontšha gore bophelo bja gagwe bo be bo makatša.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>5.</strong> <span class="answer">Bokgekolo bja go phela ka botho le go tšhaba dilo tše di makatšago bo a bohlokwa.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>6.</strong> <span class="answer">Ee, nonwane ye e a bohlokwa.</span> E ruta batho gore bokgekolo bja go phela ka botho bo a bohlokwa; e bontšha gore batho ba ka phela ka tsela yeo ba ratago. <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>7.</strong> <span class="answer">Go tšhaba / Go maketša / Go tseba gore bophelo bja motho bo ka phela ka tsela yeo a ratago.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>8.</strong> <span class="answer">"Go bolelwa gore Mmakgwadi o be a tsebega."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>9.</strong> <span class="answer">Go ruta batho gore bokgekolo bja go phela ka botho bo a bohlokwa; go bontšha gore batho ba ka phela ka tsela yeo ba ratago.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>10.</strong> <span class="answer">O be a dira mediro ye megolo ka nako e tee; o be a phala basadi ba kgobokane; o be a dula mokutwaneng wa go dirwa ka mahlaka.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>11.</strong> <span class="answer">Go laetša gore mokutwano o be go boifiša; go tšweletša moya wa go tšhaba.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>12.</strong> <span class="answer">"Bokgekolo bja go phela ka botho" / "Go tšhaba dilo tše di makatšago"</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>13.</strong> <span class="answer">Go tšhaba Mmakgwadi go ka bontšha gore batho ba sa kwane le dilo tše di sa tsebego; go ka ruta batho go tseba batho ka ntle ga go ba tšhaba.</span> <span class="allocation">[3]</span></p></div><div class="memo-item-nsc"><p><strong>14.</strong> <span class="answer">Go laetša gore morapa o be go boifiša; go tšweletša moya wa go tšhaba.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>15.</strong> <span class="answer">E ruta batho gore bokgekolo bja go phela ka botho bo a bohlokwa; e bontšha gore batho ba ka phela ka tsela yeo ba ratago; e ruta batho go tseba batho.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>16.</strong> <span class="answer">"Badudi ba a tšhabiša ka lebaka la bophelo bja Mmakgwadi."</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>17.</strong> <span class="answer">Go ruta batho gore bokgekolo bja go phela ka botho bo a bohlokwa; go bontšha gore batho ba ka phela ka tsela yeo ba ratago.</span> <span class="allocation">[2]</span></p></div><div class="memo-item-nsc"><p><strong>18.</strong> <span class="answer">Bokgekolo bja gago bja go phela ka botho bo ka thuša batho go tseba gore bophelo bo ka phela ka tsela yeo ba ratago; bo ka ruta batho go hlompha batho ba bangwe.</span> <span class="allocation">[3]</span></p></div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- ABOUT -->
     <section class="about-section">
@@ -1367,69 +2197,52 @@
     </footer>
 
     <script>
-        // Show grade selector after subject click
+        // Original EduSphere scripts
         function showGrades(subject) {
             const gradeSelector = document.getElementById('grade-selector');
             gradeSelector.classList.add('active');
-            setTimeout(() => {
-                gradeSelector.scrollIntoView({ behavior: 'smooth', block: 'center' });
-            }, 100);
+            setTimeout(() => { gradeSelector.scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 100);
         }
-
-        // Handle grade selection
         function selectGrade(grade) {
             const lessonsSection = document.getElementById('lessons');
-            if (lessonsSection) {
-                lessonsSection.scrollIntoView({ behavior: 'smooth' });
-            }
+            if (lessonsSection) lessonsSection.scrollIntoView({ behavior: 'smooth' });
         }
-
-        // Quiz functionality
         function checkAnswer(element, questionId, selected) {
             const question = document.getElementById(questionId);
             const options = question.querySelectorAll('.quiz-option');
             const explanation = document.getElementById('exp-' + questionId);
-
-            const correctAnswers = {
-                'q1': 'A',
-                'q2': 'A',
-                'q3': 'A',
-                'q4': 'A'
-            };
-
-            options.forEach(opt => {
-                opt.style.pointerEvents = 'none';
-                opt.style.opacity = '0.6';
-            });
-
+            const correctAnswers = { 'q1': 'A', 'q2': 'A', 'q3': 'A', 'q4': 'A' };
+            options.forEach(opt => { opt.style.pointerEvents = 'none'; opt.style.opacity = '0.6'; });
             element.style.opacity = '1';
-
-            if (selected === correctAnswers[questionId]) {
-                element.classList.add('correct');
-            } else {
+            if (selected === correctAnswers[questionId]) { element.classList.add('correct'); }
+            else {
                 element.classList.add('wrong');
-                options.forEach(opt => {
-                    if (opt.getAttribute('onclick').includes("'" + correctAnswers[questionId] + "'")) {
-                        opt.classList.add('correct');
-                        opt.style.opacity = '1';
-                    }
-                });
+                options.forEach(opt => { if (opt.getAttribute('onclick').includes("'" + correctAnswers[questionId] + "'")) { opt.classList.add('correct'); opt.style.opacity = '1'; } });
             }
-
             explanation.classList.add('show');
         }
-
-        // Smooth scroll for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
+            anchor.addEventListener('click', function(e) { e.preventDefault(); const target = document.querySelector(this.getAttribute('href')); if (target) target.scrollIntoView({ behavior: 'smooth' }); });
         });
-    </script>
 
+        // NSC Bank scripts
+        function switchGradeNsc(gradeId) {
+            document.querySelectorAll('.grade-panel-nsc').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.grade-tab-nsc').forEach(t => t.classList.remove('active'));
+            document.getElementById(gradeId).classList.add('active');
+            event.target.classList.add('active');
+        }
+        function toggleActivityNsc(item) {
+            const content = item.querySelector('.activity-content-nsc');
+            const isOpen = content.classList.contains('open');
+            item.closest('.activity-list-nsc').querySelectorAll('.activity-content-nsc').forEach(c => c.classList.remove('open'));
+            if (!isOpen) content.classList.add('open');
+        }
+        function toggleMemoNsc(btn) {
+            const memo = btn.nextElementSibling;
+            memo.classList.toggle('open');
+            btn.textContent = memo.classList.contains('open') ? 'Hide Memorandum' : 'Show Memorandum';
+        }
+    </script>
 </body>
 </html>
