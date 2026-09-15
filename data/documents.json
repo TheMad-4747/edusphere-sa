@@ -1,0 +1,857 @@
+[
+  {
+    "id": "accounting-g10-notes",
+    "title": "Accounting Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/accounting-g10-notes.docx",
+    "subject": "accounting",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "accounting-g11-notes",
+    "title": "Accounting Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/accounting-g11-notes.docx",
+    "subject": "accounting",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "accounting-g12-notes",
+    "title": "Accounting Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/accounting-g12-notes.docx",
+    "subject": "accounting",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "business-studies-g10-notes",
+    "title": "Business Studies Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/business-studies-g10-notes.docx",
+    "subject": "business-studies",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "business-studies-g11-notes",
+    "title": "Business Studies Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/business-studies-g11-notes.docx",
+    "subject": "business-studies",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "business-studies-g12-notes",
+    "title": "Business Studies Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/business-studies-g12-notes.docx",
+    "subject": "business-studies",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "economics-g10-notes",
+    "title": "Economics Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/economics-g10-notes.docx",
+    "subject": "economics",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "economics-g11-notes",
+    "title": "Economics Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/economics-g11-notes.docx",
+    "subject": "economics",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "economics-g12-notes",
+    "title": "Economics Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/economics-g12-notes.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "english-g10-notes",
+    "title": "English FAL Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/english-g10-notes.docx",
+    "subject": "english",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "english-g11-notes",
+    "title": "English FAL Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/english-g11-notes.docx",
+    "subject": "english",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "english-g12-notes",
+    "title": "English FAL Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/english-g12-notes.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "geography-g10-notes",
+    "title": "Geography Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/geography-g10-notes.docx",
+    "subject": "geography",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "geography-g11-notes",
+    "title": "Geography Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/geography-g11-notes.docx",
+    "subject": "geography",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "geography-g12-notes",
+    "title": "Geography Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/geography-g12-notes.docx",
+    "subject": "geography",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "history-g10-notes",
+    "title": "History Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/history-g10-notes.docx",
+    "subject": "history",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "history-g11-notes",
+    "title": "History Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/history-g11-notes.docx",
+    "subject": "history",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "history-g12-notes",
+    "title": "History Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/history-g12-notes.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "life-orientation-g10-notes",
+    "title": "Life Orientation Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/life-orientation-g10-notes.docx",
+    "subject": "life-orientation",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "life-orientation-g11-notes",
+    "title": "Life Orientation Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/life-orientation-g11-notes.docx",
+    "subject": "life-orientation",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "life-orientation-g12-notes",
+    "title": "Life Orientation Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/life-orientation-g12-notes.docx",
+    "subject": "life-orientation",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "life-sciences-g10-notes",
+    "title": "Life Sciences Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/life-sciences-g10-notes.docx",
+    "subject": "science",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "life-sciences-g11-notes",
+    "title": "Life Sciences Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/life-sciences-g11-notes.docx",
+    "subject": "science",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "life-sciences-g12-notes",
+    "title": "Life Sciences Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/life-sciences-g12-notes.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "maths-g10-notes",
+    "title": "Mathematics Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/maths-g10-notes.docx",
+    "subject": "maths",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "maths-g11-notes",
+    "title": "Mathematics Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/maths-g11-notes.docx",
+    "subject": "maths",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "maths-g12-notes",
+    "title": "Mathematics Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/maths-g12-notes.docx",
+    "subject": "maths",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "physical-sciences-g10-notes",
+    "title": "Physical Sciences Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/physical-sciences-g10-notes.docx",
+    "subject": "science",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "physical-sciences-g11-notes",
+    "title": "Physical Sciences Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/physical-sciences-g11-notes.docx",
+    "subject": "science",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "physical-sciences-g12-notes",
+    "title": "Physical Sciences Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/physical-sciences-g12-notes.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "pp-accounting-g12-2023-class-memo",
+    "title": "Accounting Grade 12 \u2014 DBE 2023 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-accounting-g12-2023-class-memo.docx",
+    "subject": "accounting",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-accounting-g12-2023-class-q",
+    "title": "Accounting Grade 12 \u2014 DBE 2023 \u2014 Class Activities",
+    "file": "downloads/pp-accounting-g12-2023-class-q.docx",
+    "subject": "accounting",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-accounting-g12-2023-home-memo",
+    "title": "Accounting Grade 12 \u2014 DBE 2023 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-accounting-g12-2023-home-memo.docx",
+    "subject": "accounting",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-accounting-g12-2023-home-q",
+    "title": "Accounting Grade 12 \u2014 DBE 2023 \u2014 Home Activities",
+    "file": "downloads/pp-accounting-g12-2023-home-q.docx",
+    "subject": "accounting",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-business-studies-g12-2023-class-memo",
+    "title": "Business Studies Grade 12 \u2014 DBE 2023 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-business-studies-g12-2023-class-memo.docx",
+    "subject": "business-studies",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-business-studies-g12-2023-class-q",
+    "title": "Business Studies Grade 12 \u2014 DBE 2023 \u2014 Class Activities",
+    "file": "downloads/pp-business-studies-g12-2023-class-q.docx",
+    "subject": "business-studies",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-business-studies-g12-2023-home-memo",
+    "title": "Business Studies Grade 12 \u2014 DBE 2023 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-business-studies-g12-2023-home-memo.docx",
+    "subject": "business-studies",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-business-studies-g12-2023-home-q",
+    "title": "Business Studies Grade 12 \u2014 DBE 2023 \u2014 Home Activities",
+    "file": "downloads/pp-business-studies-g12-2023-home-q.docx",
+    "subject": "business-studies",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-economics-g12-p1-202-home-memo",
+    "title": "Economics Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-economics-g12-p1-202-home-memo.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-economics-g12-p1-202-home-q",
+    "title": "Economics Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities",
+    "file": "downloads/pp-economics-g12-p1-202-home-q.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-economics-g12-p1-2023-class-memo",
+    "title": "Economics Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-economics-g12-p1-2023-class-memo.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-economics-g12-p1-2023-class-q",
+    "title": "Economics Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities",
+    "file": "downloads/pp-economics-g12-p1-2023-class-q.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-economics-g12-p1-2023-home-memo",
+    "title": "Economics Grade 12 \u2014 DBE 2023 Paper 1 Home Activities Memorandum",
+    "file": "downloads/pp-economics-g12-p1-2023-home-memo.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-economics-g12-p1-2023-home-q",
+    "title": "Economics Grade 12 \u2014 DBE 2023 Paper 1 Home Activities",
+    "file": "downloads/pp-economics-g12-p1-2023-home-q.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-english-g12-p1-2023-class-memo",
+    "title": "English FAL Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-english-g12-p1-2023-class-memo.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-english-g12-p1-2023-class-q",
+    "title": "English FAL Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities",
+    "file": "downloads/pp-english-g12-p1-2023-class-q.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-english-g12-p1-2023-home-memo",
+    "title": "English FAL Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-english-g12-p1-2023-home-memo.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-english-g12-p1-2023-home-q",
+    "title": "English FAL Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities",
+    "file": "downloads/pp-english-g12-p1-2023-home-q.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-geography-g12-p1-2023-class-memo",
+    "title": "Geography Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-geography-g12-p1-2023-class-memo.docx",
+    "subject": "geography",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-geography-g12-p1-2023-class-q",
+    "title": "Geography Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities",
+    "file": "downloads/pp-geography-g12-p1-2023-class-q.docx",
+    "subject": "geography",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-geography-g12-p1-2023-home-memo",
+    "title": "Geography Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-geography-g12-p1-2023-home-memo.docx",
+    "subject": "geography",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-geography-g12-p1-2023-home-q",
+    "title": "Geography Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities",
+    "file": "downloads/pp-geography-g12-p1-2023-home-q.docx",
+    "subject": "geography",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-history-g12-p2-202-home-memo",
+    "title": "History Grade 12 \u2014 DBE 2023 Paper 2 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-history-g12-p2-202-home-memo.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-history-g12-p2-202-home-q",
+    "title": "History Grade 12 \u2014 DBE 2023 Paper 2 \u2014 Home Activities",
+    "file": "downloads/pp-history-g12-p2-202-home-q.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-history-g12-p2-2023-class-memo",
+    "title": "History Grade 12 \u2014 DBE 2023 Paper 2 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-history-g12-p2-2023-class-memo.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-history-g12-p2-2023-class-q",
+    "title": "History Grade 12 \u2014 DBE 2023 Paper 2 \u2014 Class Activities",
+    "file": "downloads/pp-history-g12-p2-2023-class-q.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-history-g12-p2-2023-home-memo",
+    "title": "History Grade 12 \u2014 DBE 2023 Paper 2 Home Activities Memorandum",
+    "file": "downloads/pp-history-g12-p2-2023-home-memo.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-history-g12-p2-2023-home-q",
+    "title": "History Grade 12 \u2014 DBE 2023 Paper 2 Home Activities",
+    "file": "downloads/pp-history-g12-p2-2023-home-q.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-life-orientation-g12-2023-class-memo",
+    "title": "Life Orientation Grade 12 \u2014 DBE 2023 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-life-orientation-g12-2023-class-memo.docx",
+    "subject": "life-orientation",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-life-orientation-g12-2023-class-q",
+    "title": "Life Orientation Grade 12 \u2014 DBE 2023 \u2014 Class Activities",
+    "file": "downloads/pp-life-orientation-g12-2023-class-q.docx",
+    "subject": "life-orientation",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-life-orientation-g12-2023-home-memo",
+    "title": "Life Orientation Grade 12 \u2014 DBE 2023 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-life-orientation-g12-2023-home-memo.docx",
+    "subject": "life-orientation",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-life-orientation-g12-2023-home-q",
+    "title": "Life Orientation Grade 12 \u2014 DBE 2023 \u2014 Home Activities",
+    "file": "downloads/pp-life-orientation-g12-2023-home-q.docx",
+    "subject": "life-orientation",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-life-sciences-g12-p1-2023-class-memo",
+    "title": "Life Sciences Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-life-sciences-g12-p1-2023-class-memo.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-life-sciences-g12-p1-2023-class-q",
+    "title": "Life Sciences Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities",
+    "file": "downloads/pp-life-sciences-g12-p1-2023-class-q.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-life-sciences-g12-p1-2023-home-memo",
+    "title": "Life Sciences Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-life-sciences-g12-p1-2023-home-memo.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-life-sciences-g12-p1-2023-home-q",
+    "title": "Life Sciences Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities",
+    "file": "downloads/pp-life-sciences-g12-p1-2023-home-q.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-maths-g12-p1-2023-class-memo",
+    "title": "Mathematics Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-maths-g12-p1-2023-class-memo.docx",
+    "subject": "maths",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-maths-g12-p1-2023-class-q",
+    "title": "Mathematics Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities",
+    "file": "downloads/pp-maths-g12-p1-2023-class-q.docx",
+    "subject": "maths",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-maths-g12-p1-2023-home-memo",
+    "title": "Mathematics Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-maths-g12-p1-2023-home-memo.docx",
+    "subject": "maths",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-maths-g12-p1-2023-home-q",
+    "title": "Mathematics Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities",
+    "file": "downloads/pp-maths-g12-p1-2023-home-q.docx",
+    "subject": "maths",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-physical-sciences-g12-p1-2023-class-memo",
+    "title": "Physical Sciences Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-physical-sciences-g12-p1-2023-class-memo.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-physical-sciences-g12-p1-2023-class-q",
+    "title": "Physical Sciences Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Class Activities",
+    "file": "downloads/pp-physical-sciences-g12-p1-2023-class-q.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-physical-sciences-g12-p1-2023-home-memo",
+    "title": "Physical Sciences Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-physical-sciences-g12-p1-2023-home-memo.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-physical-sciences-g12-p1-2023-home-q",
+    "title": "Physical Sciences Grade 12 \u2014 DBE 2023 Paper 1 \u2014 Home Activities",
+    "file": "downloads/pp-physical-sciences-g12-p1-2023-home-q.docx",
+    "subject": "science",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-tourism-g12-2023-class-memo",
+    "title": "Tourism Grade 12 \u2014 DBE 2023 \u2014 Class Activities Memorandum",
+    "file": "downloads/pp-tourism-g12-2023-class-memo.docx",
+    "subject": "tourism",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-tourism-g12-2023-class-q",
+    "title": "Tourism Grade 12 \u2014 DBE 2023 \u2014 Class Activities",
+    "file": "downloads/pp-tourism-g12-2023-class-q.docx",
+    "subject": "tourism",
+    "grade": "12",
+    "type": "class-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-tourism-g12-2023-home-memo",
+    "title": "Tourism Grade 12 \u2014 DBE 2023 \u2014 Home Activities Memorandum",
+    "file": "downloads/pp-tourism-g12-2023-home-memo.docx",
+    "subject": "tourism",
+    "grade": "12",
+    "type": "memorandum",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "pp-tourism-g12-2023-home-q",
+    "title": "Tourism Grade 12 \u2014 DBE 2023 \u2014 Home Activities",
+    "file": "downloads/pp-tourism-g12-2023-home-q.docx",
+    "subject": "tourism",
+    "grade": "12",
+    "type": "home-activities",
+    "source": "DBE 2023"
+  },
+  {
+    "id": "sepedi-g10-notes",
+    "title": "Sepedi Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/sepedi-g10-notes.docx",
+    "subject": "sepedi",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "sepedi-g11-notes",
+    "title": "Sepedi Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/sepedi-g11-notes.docx",
+    "subject": "sepedi",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "sepedi-g12-notes",
+    "title": "Sepedi Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/sepedi-g12-notes.docx",
+    "subject": "sepedi",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "tourism-g10-notes",
+    "title": "Tourism Grade 10 \u2014 Study Notes and Guidelines",
+    "file": "downloads/tourism-g10-notes.docx",
+    "subject": "tourism",
+    "grade": "10",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "tourism-g11-notes",
+    "title": "Tourism Grade 11 \u2014 Study Notes and Guidelines",
+    "file": "downloads/tourism-g11-notes.docx",
+    "subject": "tourism",
+    "grade": "11",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "tourism-g12-notes",
+    "title": "Tourism Grade 12 \u2014 Study Notes and Guidelines",
+    "file": "downloads/tourism-g12-notes.docx",
+    "subject": "tourism",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-economics-g12-cases-essays",
+    "title": "Economics Grade 12 \u2014 Case Studies and Model Essays",
+    "file": "downloads/verified-economics-g12-cases-essays.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "essay",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-economics-g12-essay-bank",
+    "title": "Economics Grade 12 \u2014 Complete Topic-Specific Essay Bank",
+    "file": "downloads/verified-economics-g12-essay-bank.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "essay",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-economics-g12-full-notes",
+    "title": "Economics Grade 12 \u2014 Full Topic, Case-Study and Essay Notes",
+    "file": "downloads/verified-economics-g12-full-notes.docx",
+    "subject": "economics",
+    "grade": "12",
+    "type": "essay",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-english-g12-essay-notes",
+    "title": "English FAL Grade 12 \u2014 Complete Essay Writing Notes",
+    "file": "downloads/verified-english-g12-essay-notes.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "essay",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-english-g12-longer-transactional-notes",
+    "title": "English FAL Grade 12 \u2014 Longer Transactional Text Notes",
+    "file": "downloads/verified-english-g12-longer-transactional-notes.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-english-g12-model-essays",
+    "title": "English FAL Grade 12 \u2014 Paper 3 Model Essays",
+    "file": "downloads/verified-english-g12-model-essays.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "essay",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-english-g12-shorter-transactional-notes",
+    "title": "English FAL Grade 12 \u2014 Shorter Transactional Text Notes",
+    "file": "downloads/verified-english-g12-shorter-transactional-notes.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-english-g12-writing-notes",
+    "title": "English FAL Grade 12 \u2014 Paper 3 Full Writing Notes",
+    "file": "downloads/verified-english-g12-writing-notes.docx",
+    "subject": "english",
+    "grade": "12",
+    "type": "notes",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-history-g12-essay-bank",
+    "title": "History Grade 12 \u2014 Expanded Topic-Specific Essay Bank",
+    "file": "downloads/verified-history-g12-essay-bank.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "essay",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-history-g12-full-notes",
+    "title": "History Grade 12 \u2014 Full Topic and Essay Notes",
+    "file": "downloads/verified-history-g12-full-notes.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "essay",
+    "source": "EduSphere verified/original"
+  },
+  {
+    "id": "verified-history-g12-model-essays",
+    "title": "History Grade 12 \u2014 Model Essays and Marking Guidance",
+    "file": "downloads/verified-history-g12-model-essays.docx",
+    "subject": "history",
+    "grade": "12",
+    "type": "essay",
+    "source": "EduSphere verified/original"
+  }
+]

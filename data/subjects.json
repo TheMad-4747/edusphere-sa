@@ -1,0 +1,74 @@
+[
+  {
+    "key": "english",
+    "name": "English FAL",
+    "icon": "\ud83d\udcd8",
+    "description": "Language, Literature & Writing"
+  },
+  {
+    "key": "sepedi",
+    "name": "Sepedi",
+    "icon": "\ud83d\udde3\ufe0f",
+    "description": "Puo, Sereto & Ngwalo"
+  },
+  {
+    "key": "maths",
+    "name": "Mathematics",
+    "icon": "\u2797",
+    "description": "Numbers, Algebra & Geometry"
+  },
+  {
+    "key": "science",
+    "name": "Physical Sciences",
+    "icon": "\u2697\ufe0f",
+    "description": "Physics & Chemistry"
+  },
+  {
+    "key": "life-sciences",
+    "name": "Life Sciences",
+    "icon": "\ud83e\uddec",
+    "description": "Cells, Human Biology & Ecology"
+  },
+  {
+    "key": "economics",
+    "name": "Economics",
+    "icon": "\ud83d\udcc8",
+    "description": "Markets, Policy & Development"
+  },
+  {
+    "key": "history",
+    "name": "History",
+    "icon": "\ud83c\udfdb\ufe0f",
+    "description": "World & South African History"
+  },
+  {
+    "key": "life-orientation",
+    "name": "Life Orientation",
+    "icon": "\ud83c\udf31",
+    "description": "Wellbeing, Citizenship & Careers"
+  },
+  {
+    "key": "geography",
+    "name": "Geography",
+    "icon": "\ud83c\udf0d",
+    "description": "Earth, Climate & Human Settlements"
+  },
+  {
+    "key": "accounting",
+    "name": "Accounting",
+    "icon": "\ud83d\udcbc",
+    "description": "Journals, Ledgers & Financial Statements"
+  },
+  {
+    "key": "business-studies",
+    "name": "Business Studies",
+    "icon": "\ud83c\udfe2",
+    "description": "Business, Management & Ventures"
+  },
+  {
+    "key": "tourism",
+    "name": "Tourism",
+    "icon": "\ud83e\uddf3",
+    "description": "Destinations, Planning & Responsible Tourism"
+  }
+]
