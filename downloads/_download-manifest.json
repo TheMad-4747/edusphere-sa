@@ -1,0 +1,382 @@
+[
+  {
+    "file": "accounting-g10-notes.docx",
+    "size_bytes": 37426
+  },
+  {
+    "file": "accounting-g11-notes.docx",
+    "size_bytes": 37436
+  },
+  {
+    "file": "accounting-g12-notes.docx",
+    "size_bytes": 37456
+  },
+  {
+    "file": "business-studies-g10-notes.docx",
+    "size_bytes": 37465
+  },
+  {
+    "file": "business-studies-g11-notes.docx",
+    "size_bytes": 37461
+  },
+  {
+    "file": "business-studies-g12-notes.docx",
+    "size_bytes": 37478
+  },
+  {
+    "file": "economics-g10-notes.docx",
+    "size_bytes": 37410
+  },
+  {
+    "file": "economics-g11-notes.docx",
+    "size_bytes": 37418
+  },
+  {
+    "file": "economics-g12-notes.docx",
+    "size_bytes": 37442
+  },
+  {
+    "file": "english-g10-notes.docx",
+    "size_bytes": 37459
+  },
+  {
+    "file": "english-g11-notes.docx",
+    "size_bytes": 37465
+  },
+  {
+    "file": "english-g12-notes.docx",
+    "size_bytes": 37479
+  },
+  {
+    "file": "geography-g10-notes.docx",
+    "size_bytes": 37318
+  },
+  {
+    "file": "geography-g11-notes.docx",
+    "size_bytes": 37316
+  },
+  {
+    "file": "geography-g12-notes.docx",
+    "size_bytes": 37322
+  },
+  {
+    "file": "history-g10-notes.docx",
+    "size_bytes": 37341
+  },
+  {
+    "file": "history-g11-notes.docx",
+    "size_bytes": 37348
+  },
+  {
+    "file": "history-g12-notes.docx",
+    "size_bytes": 37339
+  },
+  {
+    "file": "life-orientation-g10-notes.docx",
+    "size_bytes": 37477
+  },
+  {
+    "file": "life-orientation-g11-notes.docx",
+    "size_bytes": 37497
+  },
+  {
+    "file": "life-orientation-g12-notes.docx",
+    "size_bytes": 37500
+  },
+  {
+    "file": "life-sciences-g10-notes.docx",
+    "size_bytes": 37471
+  },
+  {
+    "file": "life-sciences-g11-notes.docx",
+    "size_bytes": 37458
+  },
+  {
+    "file": "life-sciences-g12-notes.docx",
+    "size_bytes": 37493
+  },
+  {
+    "file": "maths-g10-notes.docx",
+    "size_bytes": 37493
+  },
+  {
+    "file": "maths-g11-notes.docx",
+    "size_bytes": 37495
+  },
+  {
+    "file": "maths-g12-notes.docx",
+    "size_bytes": 37495
+  },
+  {
+    "file": "physical-sciences-g10-notes.docx",
+    "size_bytes": 37451
+  },
+  {
+    "file": "physical-sciences-g11-notes.docx",
+    "size_bytes": 37444
+  },
+  {
+    "file": "physical-sciences-g12-notes.docx",
+    "size_bytes": 37453
+  },
+  {
+    "file": "pp-accounting-g12-2023-class-memo.docx",
+    "size_bytes": 37150
+  },
+  {
+    "file": "pp-accounting-g12-2023-class-q.docx",
+    "size_bytes": 37021
+  },
+  {
+    "file": "pp-accounting-g12-2023-home-memo.docx",
+    "size_bytes": 36950
+  },
+  {
+    "file": "pp-accounting-g12-2023-home-q.docx",
+    "size_bytes": 36919
+  },
+  {
+    "file": "pp-business-studies-g12-2023-class-memo.docx",
+    "size_bytes": 37162
+  },
+  {
+    "file": "pp-business-studies-g12-2023-class-q.docx",
+    "size_bytes": 37019
+  },
+  {
+    "file": "pp-business-studies-g12-2023-home-memo.docx",
+    "size_bytes": 36998
+  },
+  {
+    "file": "pp-business-studies-g12-2023-home-q.docx",
+    "size_bytes": 36901
+  },
+  {
+    "file": "pp-economics-g12-p1-202-home-memo.docx",
+    "size_bytes": 37364
+  },
+  {
+    "file": "pp-economics-g12-p1-202-home-q.docx",
+    "size_bytes": 37174
+  },
+  {
+    "file": "pp-economics-g12-p1-2023-class-memo.docx",
+    "size_bytes": 37941
+  },
+  {
+    "file": "pp-economics-g12-p1-2023-class-q.docx",
+    "size_bytes": 37122
+  },
+  {
+    "file": "pp-economics-g12-p1-2023-home-memo.docx",
+    "size_bytes": 37242
+  },
+  {
+    "file": "pp-economics-g12-p1-2023-home-q.docx",
+    "size_bytes": 37249
+  },
+  {
+    "file": "pp-english-g12-p1-2023-class-memo.docx",
+    "size_bytes": 37231
+  },
+  {
+    "file": "pp-english-g12-p1-2023-class-q.docx",
+    "size_bytes": 37089
+  },
+  {
+    "file": "pp-english-g12-p1-2023-home-memo.docx",
+    "size_bytes": 37033
+  },
+  {
+    "file": "pp-english-g12-p1-2023-home-q.docx",
+    "size_bytes": 37077
+  },
+  {
+    "file": "pp-geography-g12-p1-2023-class-memo.docx",
+    "size_bytes": 37115
+  },
+  {
+    "file": "pp-geography-g12-p1-2023-class-q.docx",
+    "size_bytes": 37018
+  },
+  {
+    "file": "pp-geography-g12-p1-2023-home-memo.docx",
+    "size_bytes": 36976
+  },
+  {
+    "file": "pp-geography-g12-p1-2023-home-q.docx",
+    "size_bytes": 36940
+  },
+  {
+    "file": "pp-history-g12-p2-202-home-memo.docx",
+    "size_bytes": 37394
+  },
+  {
+    "file": "pp-history-g12-p2-202-home-q.docx",
+    "size_bytes": 37168
+  },
+  {
+    "file": "pp-history-g12-p2-2023-class-memo.docx",
+    "size_bytes": 38295
+  },
+  {
+    "file": "pp-history-g12-p2-2023-class-q.docx",
+    "size_bytes": 37319
+  },
+  {
+    "file": "pp-history-g12-p2-2023-home-memo.docx",
+    "size_bytes": 37217
+  },
+  {
+    "file": "pp-history-g12-p2-2023-home-q.docx",
+    "size_bytes": 37312
+  },
+  {
+    "file": "pp-life-orientation-g12-2023-class-memo.docx",
+    "size_bytes": 37054
+  },
+  {
+    "file": "pp-life-orientation-g12-2023-class-q.docx",
+    "size_bytes": 36978
+  },
+  {
+    "file": "pp-life-orientation-g12-2023-home-memo.docx",
+    "size_bytes": 37019
+  },
+  {
+    "file": "pp-life-orientation-g12-2023-home-q.docx",
+    "size_bytes": 36918
+  },
+  {
+    "file": "pp-life-sciences-g12-p1-2023-class-memo.docx",
+    "size_bytes": 37184
+  },
+  {
+    "file": "pp-life-sciences-g12-p1-2023-class-q.docx",
+    "size_bytes": 37042
+  },
+  {
+    "file": "pp-life-sciences-g12-p1-2023-home-memo.docx",
+    "size_bytes": 36975
+  },
+  {
+    "file": "pp-life-sciences-g12-p1-2023-home-q.docx",
+    "size_bytes": 36912
+  },
+  {
+    "file": "pp-maths-g12-p1-2023-class-memo.docx",
+    "size_bytes": 36981
+  },
+  {
+    "file": "pp-maths-g12-p1-2023-class-q.docx",
+    "size_bytes": 37028
+  },
+  {
+    "file": "pp-maths-g12-p1-2023-home-memo.docx",
+    "size_bytes": 36907
+  },
+  {
+    "file": "pp-maths-g12-p1-2023-home-q.docx",
+    "size_bytes": 36924
+  },
+  {
+    "file": "pp-physical-sciences-g12-p1-2023-class-memo.docx",
+    "size_bytes": 37170
+  },
+  {
+    "file": "pp-physical-sciences-g12-p1-2023-class-q.docx",
+    "size_bytes": 37160
+  },
+  {
+    "file": "pp-physical-sciences-g12-p1-2023-home-memo.docx",
+    "size_bytes": 36963
+  },
+  {
+    "file": "pp-physical-sciences-g12-p1-2023-home-q.docx",
+    "size_bytes": 36913
+  },
+  {
+    "file": "pp-tourism-g12-2023-class-memo.docx",
+    "size_bytes": 37169
+  },
+  {
+    "file": "pp-tourism-g12-2023-class-q.docx",
+    "size_bytes": 37025
+  },
+  {
+    "file": "pp-tourism-g12-2023-home-memo.docx",
+    "size_bytes": 37039
+  },
+  {
+    "file": "pp-tourism-g12-2023-home-q.docx",
+    "size_bytes": 36906
+  },
+  {
+    "file": "sepedi-g10-notes.docx",
+    "size_bytes": 37442
+  },
+  {
+    "file": "sepedi-g11-notes.docx",
+    "size_bytes": 37467
+  },
+  {
+    "file": "sepedi-g12-notes.docx",
+    "size_bytes": 37470
+  },
+  {
+    "file": "tourism-g10-notes.docx",
+    "size_bytes": 37610
+  },
+  {
+    "file": "tourism-g11-notes.docx",
+    "size_bytes": 37603
+  },
+  {
+    "file": "tourism-g12-notes.docx",
+    "size_bytes": 37604
+  },
+  {
+    "file": "verified-economics-g12-cases-essays.docx",
+    "size_bytes": 40219
+  },
+  {
+    "file": "verified-economics-g12-essay-bank.docx",
+    "size_bytes": 43313
+  },
+  {
+    "file": "verified-economics-g12-full-notes.docx",
+    "size_bytes": 38334
+  },
+  {
+    "file": "verified-english-g12-essay-notes.docx",
+    "size_bytes": 38720
+  },
+  {
+    "file": "verified-english-g12-longer-transactional-notes.docx",
+    "size_bytes": 39593
+  },
+  {
+    "file": "verified-english-g12-model-essays.docx",
+    "size_bytes": 39570
+  },
+  {
+    "file": "verified-english-g12-shorter-transactional-notes.docx",
+    "size_bytes": 38283
+  },
+  {
+    "file": "verified-english-g12-writing-notes.docx",
+    "size_bytes": 37859
+  },
+  {
+    "file": "verified-history-g12-essay-bank.docx",
+    "size_bytes": 41035
+  },
+  {
+    "file": "verified-history-g12-full-notes.docx",
+    "size_bytes": 38930
+  },
+  {
+    "file": "verified-history-g12-model-essays.docx",
+    "size_bytes": 39618
+  }
+]
